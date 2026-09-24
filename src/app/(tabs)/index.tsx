@@ -1,7 +1,7 @@
 // Экран поиска приборов («Когитатор») — вкладка ПОИСК
 
 import React, { useCallback, useEffect, useRef, useState } from 'react';
-import { ActivityIndicator, FlatList, Pressable, Text, View } from 'react-native';
+import { ActivityIndicator, FlatList, Pressable, Text, TextInput, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { router } from 'expo-router';
 import { loadFixturesMeta, searchFixtures } from '../../library';
@@ -25,6 +25,7 @@ function rebuildSelections(count: number, prev: ChannelSelection[]): ChannelSele
 export default function FinderScreen() {
   const { revive, clearRevive, recordSearch } = useApp();
   const [channelCount, setChannelCount] = useState(DEFAULT_CHANNELS);
+  const [channelDraft, setChannelDraft] = useState(String(DEFAULT_CHANNELS));
   const [selections, setSelections] = useState<ChannelSelection[]>(() => rebuildSelections(DEFAULT_CHANNELS, []));
   const [results, setResults] = useState<Fixture[]>([]);
   const [searched, setSearched] = useState(false);
@@ -53,6 +54,7 @@ export default function FinderScreen() {
     revivedRef.current = true;
     const count = Math.min(Math.max(revive.channelCount, 1), MAX_CHANNELS);
     setChannelCount(count);
+    setChannelDraft(String(count));
     const base = rebuildSelections(count, []);
     const sorted = [...revive.selections].sort((a, b) => a.number - b.number);
     const valid = sorted.length === count && sorted.every((s) => s.number >= 1 && s.number <= count);
@@ -62,10 +64,38 @@ export default function FinderScreen() {
     clearRevive();
   }, [revive, runSearch, clearRevive]);
 
+  // Поле ручного ввода числа каналов — текст поля обновляется вместе с channelCount
+  const resolveCount = (): number => {
+    const parsed = parseInt(channelDraft.replace(/[^0-9]/g, ''), 10);
+    return Number.isNaN(parsed) ? 1 : Math.min(Math.max(parsed, 1), MAX_CHANNELS);
+  };
+
+  // Применение введённого вручную числа каналов
+  const commitChannelCount = () => {
+    const next = resolveCount();
+    setChannelDraft(String(next));
+    if (next !== channelCount) {
+      setChannelCount(next);
+      setSelections(rebuildSelections(next, selections));
+    }
+  };
+
+  const handleSearch = () => {
+    const count = resolveCount();
+    setChannelDraft(String(count));
+    const sel = count === channelCount ? selections : rebuildSelections(count, selections);
+    if (count !== channelCount) {
+      setChannelCount(count);
+      setSelections(sel);
+    }
+    void runSearch(count, sel);
+  };
+
   const changeChannelCount = (delta: number) => {
     const next = Math.min(Math.max(channelCount + delta, 1), MAX_CHANNELS);
     if (next !== channelCount) {
       setChannelCount(next);
+      setChannelDraft(String(next));
       setSelections(rebuildSelections(next, selections));
     }
   };
@@ -98,9 +128,28 @@ export default function FinderScreen() {
         <View style={{ flexDirection: 'row', alignItems: 'center' }}>
           <Text style={{ fontSize: 12, color: C.boneDim, fontFamily: 'monospace' }}>ПРОТОКОЛ</Text>
           <View style={{ flex: 1 }} />
-          <Text style={{ fontSize: 30, fontFamily: 'Cinzel', fontWeight: '700', color: C.goldBright }}>
-            {channelCount}
-          </Text>
+          <TextInput
+            value={channelDraft}
+            onChangeText={(text) => setChannelDraft(text.replace(/[^0-9]/g, '').slice(0, 2))}
+            onBlur={commitChannelCount}
+            onSubmitEditing={commitChannelCount}
+            keyboardType="number-pad"
+            returnKeyType="done"
+            maxLength={2}
+            selectTextOnFocus
+            accessibilityLabel="Число каналов"
+            style={{
+              fontSize: 30,
+              fontFamily: 'Cinzel',
+              fontWeight: '700',
+              color: C.goldBright,
+              textAlign: 'center',
+              paddingVertical: 0,
+              minWidth: 64,
+              borderBottomWidth: 1,
+              borderBottomColor: 'rgba(194,158,77,0.45)',
+            }}
+          />
         </View>
         <View style={{ flexDirection: 'row', gap: 12, marginTop: 10 }}>
           <StepButton symbol="−" onPress={() => changeChannelCount(-1)} />
@@ -108,7 +157,7 @@ export default function FinderScreen() {
           <StepButton symbol="+" onPress={() => changeChannelCount(1)} />
         </View>
         <Text style={{ fontSize: 11, color: C.boneDim, marginTop: 8 }}>
-          Данные библиотеки: 1–{MAX_CHANNELS} каналов
+          Данные библиотеки: 1–{MAX_CHANNELS} каналов. Число можно ввести вручную.
         </Text>
       </SectionCard>
 
@@ -184,7 +233,7 @@ export default function FinderScreen() {
       ) : null}
 
       <Pressable
-        onPress={() => void runSearch(channelCount, selections)}
+        onPress={handleSearch}
         disabled={loading}
         style={({ pressed }) => [
           {
@@ -242,7 +291,7 @@ export default function FinderScreen() {
           Библиотека grandMA2 {MA_VERSION} · {TOTAL_FIXTURES} приборов · Оффлайн
         </Text>
         <Text style={{ fontSize: 9, color: C.boneDim, textAlign: 'center' }}>
-          Данные: mafixture.ru © Artem Sysolyatin. Товарные знаки принадлежат их владельцам.
+          Сборка 1.0 by Gall6
         </Text>
       </View>
     </View>
