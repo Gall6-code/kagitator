@@ -1,0 +1,75 @@
+# Собирает НЕподписанный .ipa для установки через AltStore/Sideloadly
+# с БЕСПЛАТНЫМ Apple ID (без Apple Developer Program за $99).
+#
+# .ipa нужен только ОДИН раз — дальше AltStore лишь переподписывает
+# приложение каждые 7 дней на самом iPhone (без пересборки).
+#
+# Бесплатные минуты macOS-раннеров GitHub Actions доступны для ПУБЛИЧНЫХ
+# репозиториев. В приватном репозитории нужен платный план ($4/мес,
+# можно отменить сразу после одной сборки).
+
+name: Build unsigned iOS .ipa (AltStore)
+
+on:
+  workflow_dispatch: # кнопка «Run workflow» на вкладке Actions
+  push:
+    branches: [main]
+
+concurrency:
+  group: build-ipa
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: macos-latest
+    timeout-minutes: 90
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci --legacy-peer-deps
+
+      - name: Generate native iOS project
+        run: npx expo prebuild --platform ios --non-interactive
+
+      - name: Build unsigned .app
+        run: |
+          set -eo pipefail
+          WS=$(ls ios/*.xcworkspace | head -1)
+          echo "workspace: $WS"
+          SCHEME=$(xcodebuild -workspace "$WS" -list 2>/dev/null \
+            | awk '/Schemes:/{getline; gsub(/^[[:space:]]+/,"",$0); print; exit}')
+          echo "scheme: $SCHEME"
+          xcodebuild \
+            -workspace "$WS" \
+            -scheme "$SCHEME" \
+            -configuration Release \
+            -sdk iphoneos \
+            -derivedDataPath build \
+            CODE_SIGNING_ALLOWED=NO \
+            -quiet \
+            build
+
+      - name: Package unsigned .ipa
+        run: |
+          set -eo pipefail
+          APP=$(find build/Build/Products/Release-iphoneos -maxdepth 1 -name '*.app' | head -1)
+          echo "app: $APP"
+          mkdir -p ipa/Payload
+          cp -R "$APP" ipa/Payload/
+          (cd ipa && zip -qyr ../Cogitator-unsigned.ipa Payload)
+          ls -lh Cogitator-unsigned.ipa
+
+      - name: Upload .ipa artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: cogitator-unsigned-ipa
+          path: Cogitator-unsigned.ipa
+          if-no-files-found: error
