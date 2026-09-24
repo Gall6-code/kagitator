@@ -59,18 +59,21 @@ jobs:
             CODE_SIGNING_ALLOWED=NO \
             -quiet \
             archive
+          test -d "$RUNNER_TEMP/Kogitator.xcarchive" || { echo "ERROR: archive not created"; exit 1; }
+          echo "=== верхний уровень архива ==="
+          ls -la "$RUNNER_TEMP/Kogitator.xcarchive"
 
       - name: Package unsigned .ipa
         run: |
           set -eo pipefail
-          # Внутри xcarchive приложение лежит по стандартному пути:
-          # .../Products/Applications/<Имя>.app
-          APP="$RUNNER_TEMP/Kogitator.xcarchive/Products/Applications/Kogitator.app"
+          ARCHIVE="$RUNNER_TEMP/Kogitator.xcarchive"
+          # Xcode 26 может менять структуру архива, поэтому ищем .app по ВСЕМУ архиву
+          APP=$(find "$ARCHIVE" -type d -name '*.app' 2>/dev/null | head -1)
           echo "app: $APP"
-          if [ ! -d "$APP" ]; then
-            echo "ERROR: .app not found in archive. Содержимое Applications:"
-            ls -la "$RUNNER_TEMP/Kogitator.xcarchive/Products/Applications" 2>/dev/null || true
-            find "$RUNNER_TEMP/Kogitator.xcarchive" -maxdepth 6 -name '*.app' -print 2>/dev/null | head -10
+          if [ -z "$APP" ] || [ ! -d "$APP" ]; then
+            echo "ERROR: .app not found in archive. Полная структура архива:"
+            ls -la "$ARCHIVE"
+            find "$ARCHIVE" -print 2>/dev/null | head -60
             exit 1
           fi
           mkdir -p ipa/Payload
