@@ -4,7 +4,7 @@ import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { ActivityIndicator, FlatList, Pressable, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { router } from 'expo-router';
-import { loadFixtures, searchFixtures } from '../../library';
+import { loadFixturesMeta, searchFixtures } from '../../library';
 import { ANY_OPTION, CHANNEL_OPTIONS, MA_VERSION, MAX_CHANNELS, TOTAL_FIXTURES } from '../../models';
 import type { ChannelOption, ChannelSelection, Fixture } from '../../models';
 import { EmptySkull, FixtureCard, GoldDivider, OptionPickerModal, OrnateHeader, SectionCard } from '../../components';
@@ -29,14 +29,16 @@ export default function FinderScreen() {
   const [results, setResults] = useState<Fixture[]>([]);
   const [searched, setSearched] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [dataError, setDataError] = useState<string | null>(null);
   const [pickerChannel, setPickerChannel] = useState<number | null>(null);
   const revivedRef = useRef(false);
 
   const runSearch = useCallback(
     async (count: number, sel: ChannelSelection[]) => {
       setLoading(true);
-      const all = await loadFixtures(count);
-      const found = searchFixtures(all, sel);
+      const { fixtures, error } = await loadFixturesMeta(count);
+      setDataError(error);
+      const found = searchFixtures(fixtures, sel);
       setResults(found);
       setSearched(true);
       setLoading(false);
@@ -255,10 +257,22 @@ export default function FinderScreen() {
         ListHeaderComponent={header}
         ListEmptyComponent={
           searched && !loading ? (
-            <EmptySkull
-              title="НИЧЕГО НЕ НАЙДЕНО"
-              subtitle="Приборы молчат. Проверь раскладку каналов, слуга Императора."
-            />
+            dataError ? (
+              <View style={[cardStyle, { borderColor: C.bloodBright, alignItems: 'center', gap: 8 }]}>
+                <Text style={{ fontSize: 15, fontFamily: 'Cinzel', fontWeight: '700', color: C.bloodBright }}>
+                  ⚠ ДАННЫЕ НЕ ЗАГРУЖЕНЫ
+                </Text>
+                <Text style={{ fontSize: 12, color: C.boneDim, textAlign: 'center' }}>{dataError}</Text>
+                <Text style={{ fontSize: 11, color: C.boneDim, textAlign: 'center' }}>
+                  Перезапусти сервер: Ctrl+C, затем ./start.sh
+                </Text>
+              </View>
+            ) : (
+              <EmptySkull
+                title="НИЧЕГО НЕ НАЙДЕНО"
+                subtitle="Приборы молчат. Проверь раскладку каналов, слуга Императора."
+              />
+            )
           ) : null
         }
         contentContainerStyle={{ padding: 16, gap: 16, paddingBottom: 28 }}
