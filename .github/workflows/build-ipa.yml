@@ -42,10 +42,14 @@ jobs:
       - name: Build unsigned .app
         run: |
           set -eo pipefail
-          WS=$(ls ios/*.xcworkspace | head -1)
+          # ВАЖНО: ищем ПАПКУ-воркспейс (ls по папке выводит её содержимое:
+          # contents.xcworkspacedata — оттуда и была ошибка exit 66)
+          WS=$(find ios -maxdepth 1 -type d -name '*.xcworkspace' | head -1)
+          test -n "$WS" || { echo "ERROR: iOS workspace not found"; exit 1; }
           echo "workspace: $WS"
           SCHEME=$(xcodebuild -workspace "$WS" -list 2>/dev/null \
             | awk '/Schemes:/{getline; gsub(/^[[:space:]]+/,"",$0); print; exit}')
+          test -n "$SCHEME" || { echo "ERROR: scheme not found"; exit 1; }
           echo "scheme: $SCHEME"
           xcodebuild \
             -workspace "$WS" \
