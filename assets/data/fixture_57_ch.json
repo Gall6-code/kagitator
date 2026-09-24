@@ -1,0 +1,9760 @@
+[
+  {
+    "Name": "High End Systems - Halcyon Gold High Fidelity (Standard)",
+    "Channels": [
+      {
+        "Number": 1,
+        "Attribute": "PAN"
+      },
+      {
+        "Number": 2,
+        "Attribute": "PAN (fine)"
+      },
+      {
+        "Number": 3,
+        "Attribute": "TILT"
+      },
+      {
+        "Number": 4,
+        "Attribute": "TILT (fine)"
+      },
+      {
+        "Number": 5,
+        "Attribute": "COLORMIXMODE"
+      },
+      {
+        "Number": 6,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 7,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 8,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 9,
+        "Attribute": "CTO"
+      },
+      {
+        "Number": 10,
+        "Attribute": "COLOR1_MODE"
+      },
+      {
+        "Number": 11,
+        "Attribute": "COLOR1"
+      },
+      {
+        "Number": 12,
+        "Attribute": "GOBO1WHEELMODE"
+      },
+      {
+        "Number": 13,
+        "Attribute": "GOBO1"
+      },
+      {
+        "Number": 14,
+        "Attribute": "GOBO1_MODE"
+      },
+      {
+        "Number": 15,
+        "Attribute": "GOBO1_POS"
+      },
+      {
+        "Number": 16,
+        "Attribute": "GOBO1_POS (fine)"
+      },
+      {
+        "Number": 17,
+        "Attribute": "GOBO2WHEELMODE"
+      },
+      {
+        "Number": 18,
+        "Attribute": "GOBO2"
+      },
+      {
+        "Number": 19,
+        "Attribute": "BLADE3B"
+      },
+      {
+        "Number": 20,
+        "Attribute": "BLADE3A"
+      },
+      {
+        "Number": 21,
+        "Attribute": "BLADE1B"
+      },
+      {
+        "Number": 22,
+        "Attribute": "BLADE1A"
+      },
+      {
+        "Number": 23,
+        "Attribute": "BLADE4B"
+      },
+      {
+        "Number": 24,
+        "Attribute": "BLADE4A"
+      },
+      {
+        "Number": 25,
+        "Attribute": "BLADE2B"
+      },
+      {
+        "Number": 26,
+        "Attribute": "BLADE2A"
+      },
+      {
+        "Number": 27,
+        "Attribute": "SHAPER ROT"
+      },
+      {
+        "Number": 28,
+        "Attribute": "SHAPER ROT (fine)"
+      },
+      {
+        "Number": 29,
+        "Attribute": "ANIMATIONWHEEL"
+      },
+      {
+        "Number": 30,
+        "Attribute": "ANIMATIONINDEXROTATE"
+      },
+      {
+        "Number": 31,
+        "Attribute": "EFFECTWHEEL"
+      },
+      {
+        "Number": 32,
+        "Attribute": "EFFECTINDEXROTATE"
+      },
+      {
+        "Number": 33,
+        "Attribute": "EFFECTINDEXROTATE (fine)"
+      },
+      {
+        "Number": 34,
+        "Attribute": "EFFECTWHEEL2"
+      },
+      {
+        "Number": 35,
+        "Attribute": "EFFECTINDEXROTATE2"
+      },
+      {
+        "Number": 36,
+        "Attribute": "EFFECTINDEXROTATE2 (fine)"
+      },
+      {
+        "Number": 37,
+        "Attribute": "FROST"
+      },
+      {
+        "Number": 38,
+        "Attribute": "LIGHTFROST"
+      },
+      {
+        "Number": 39,
+        "Attribute": "MEDIUMFROST"
+      },
+      {
+        "Number": 40,
+        "Attribute": "HEAVYFROST"
+      },
+      {
+        "Number": 41,
+        "Attribute": "FOCUS"
+      },
+      {
+        "Number": 42,
+        "Attribute": "FOCUS (fine)"
+      },
+      {
+        "Number": 43,
+        "Attribute": "ZOOM"
+      },
+      {
+        "Number": 44,
+        "Attribute": "ZOOM (fine)"
+      },
+      {
+        "Number": 45,
+        "Attribute": "FOCUSDISTANCE"
+      },
+      {
+        "Number": 46,
+        "Attribute": "FOCUSDISTANCE (fine)"
+      },
+      {
+        "Number": 47,
+        "Attribute": "IRIS"
+      },
+      {
+        "Number": 48,
+        "Attribute": "STROBEMODE"
+      },
+      {
+        "Number": 49,
+        "Attribute": "SHUTTER"
+      },
+      {
+        "Number": 50,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 51,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 52,
+        "Attribute": "LEDENGINEEFFECTS"
+      },
+      {
+        "Number": 53,
+        "Attribute": "LEDENGINEEFFECTRATE"
+      },
+      {
+        "Number": 54,
+        "Attribute": "LEDENGINEEFFECTCROSSFADESPEED"
+      },
+      {
+        "Number": 55,
+        "Attribute": "GLOBALMSPEED"
+      },
+      {
+        "Number": 56,
+        "Attribute": "FIXTUREGLOBALRESET"
+      },
+      {
+        "Number": 57,
+        "Attribute": "FANS"
+      }
+    ]
+  },
+  {
+    "Name": "Quasar Science - Rainbow 2 Q100R2 (Profile 36: CCT RGB+O 8 Bit - 8 Pixel)",
+    "Channels": [
+      {
+        "Number": 1,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 2,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 3,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 4,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 5,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 6,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 7,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 8,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 9,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 10,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 11,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 12,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 13,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 14,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 15,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 16,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 17,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 18,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 19,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 20,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 21,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 22,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 23,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 24,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 25,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 26,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 27,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 28,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 29,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 30,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 31,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 32,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 33,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 34,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 35,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 36,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 37,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 38,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 39,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 40,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 41,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 42,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 43,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 44,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 45,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 46,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 47,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 48,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 49,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 50,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 51,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 52,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 53,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 54,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 55,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 56,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 57,
+        "Attribute": "INTENSITYMODE"
+      }
+    ]
+  },
+  {
+    "Name": "Terbly - V2000P-R (Extended)",
+    "Channels": [
+      {
+        "Number": 1,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 2,
+        "Attribute": "COLORRGB1 (fine)"
+      },
+      {
+        "Number": 3,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 4,
+        "Attribute": "COLORRGB2 (fine)"
+      },
+      {
+        "Number": 5,
+        "Attribute": "PAN"
+      },
+      {
+        "Number": 6,
+        "Attribute": "TILT"
+      },
+      {
+        "Number": 7,
+        "Attribute": "POSITIONMSPEED"
+      },
+      {
+        "Number": 8,
+        "Attribute": "POSITIONMSPEEDMODE"
+      },
+      {
+        "Number": 9,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 10,
+        "Attribute": "COLORRGB3 (fine)"
+      },
+      {
+        "Number": 11,
+        "Attribute": "CTO"
+      },
+      {
+        "Number": 12,
+        "Attribute": "CTO (fine)"
+      },
+      {
+        "Number": 13,
+        "Attribute": "COLOR1"
+      },
+      {
+        "Number": 14,
+        "Attribute": "COLOR1 (fine)"
+      },
+      {
+        "Number": 15,
+        "Attribute": "GOBO1"
+      },
+      {
+        "Number": 16,
+        "Attribute": "GOBO1_POS"
+      },
+      {
+        "Number": 17,
+        "Attribute": "GOBO1_POS (fine)"
+      },
+      {
+        "Number": 18,
+        "Attribute": "GOBO2"
+      },
+      {
+        "Number": 19,
+        "Attribute": "GOBO2_POS"
+      },
+      {
+        "Number": 20,
+        "Attribute": "EFFECTWHEEL"
+      },
+      {
+        "Number": 21,
+        "Attribute": "EFFECTINDEXROTATE"
+      },
+      {
+        "Number": 22,
+        "Attribute": "EFFECTINDEXROTATE (fine)"
+      },
+      {
+        "Number": 23,
+        "Attribute": "FOCUS"
+      },
+      {
+        "Number": 24,
+        "Attribute": "FOCUS (fine)"
+      },
+      {
+        "Number": 25,
+        "Attribute": "ZOOM"
+      },
+      {
+        "Number": 26,
+        "Attribute": "ZOOM (fine)"
+      },
+      {
+        "Number": 27,
+        "Attribute": "SHUTTER"
+      },
+      {
+        "Number": 28,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 29,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 30,
+        "Attribute": "IRIS"
+      },
+      {
+        "Number": 31,
+        "Attribute": "IRIS (fine)"
+      },
+      {
+        "Number": 32,
+        "Attribute": "FROST"
+      },
+      {
+        "Number": 33,
+        "Attribute": "COLORMIXMSPEED"
+      },
+      {
+        "Number": 34,
+        "Attribute": "COLORMACROS"
+      },
+      {
+        "Number": 35,
+        "Attribute": "BLADE1A"
+      },
+      {
+        "Number": 36,
+        "Attribute": "BLADE1A (fine)"
+      },
+      {
+        "Number": 37,
+        "Attribute": "BLADE1B"
+      },
+      {
+        "Number": 38,
+        "Attribute": "BLADE1B (fine)"
+      },
+      {
+        "Number": 39,
+        "Attribute": "BLADE3A"
+      },
+      {
+        "Number": 40,
+        "Attribute": "BLADE3A (fine)"
+      },
+      {
+        "Number": 41,
+        "Attribute": "BLADE3B"
+      },
+      {
+        "Number": 42,
+        "Attribute": "BLADE3B (fine)"
+      },
+      {
+        "Number": 43,
+        "Attribute": "BLADE2A"
+      },
+      {
+        "Number": 44,
+        "Attribute": "BLADE2A (fine)"
+      },
+      {
+        "Number": 45,
+        "Attribute": "BLADE2B"
+      },
+      {
+        "Number": 46,
+        "Attribute": "BLADE2B (fine)"
+      },
+      {
+        "Number": 47,
+        "Attribute": "BLADE4A"
+      },
+      {
+        "Number": 48,
+        "Attribute": "BLADE4A (fine)"
+      },
+      {
+        "Number": 49,
+        "Attribute": "BLADE4B"
+      },
+      {
+        "Number": 50,
+        "Attribute": "BLADE4B (fine)"
+      },
+      {
+        "Number": 51,
+        "Attribute": "SHAPER ROT"
+      },
+      {
+        "Number": 52,
+        "Attribute": "SHAPER ROT (fine)"
+      },
+      {
+        "Number": 53,
+        "Attribute": "FRAMEMSPEED"
+      },
+      {
+        "Number": 54,
+        "Attribute": "FRAMEMACROS"
+      },
+      {
+        "Number": 55,
+        "Attribute": "LAMPCONTROL"
+      },
+      {
+        "Number": 56,
+        "Attribute": "PAN (fine)"
+      },
+      {
+        "Number": 57,
+        "Attribute": "TILT (fine)"
+      }
+    ]
+  },
+  {
+    "Name": "Elation - Fuze Teatro (RGB Extended)",
+    "Channels": [
+      {
+        "Number": 1,
+        "Attribute": "PAN"
+      },
+      {
+        "Number": 2,
+        "Attribute": "PAN (fine)"
+      },
+      {
+        "Number": 3,
+        "Attribute": "TILT"
+      },
+      {
+        "Number": 4,
+        "Attribute": "TILT (fine)"
+      },
+      {
+        "Number": 5,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 6,
+        "Attribute": "COLORRGB1 (fine)"
+      },
+      {
+        "Number": 7,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 8,
+        "Attribute": "COLORRGB2 (fine)"
+      },
+      {
+        "Number": 9,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 10,
+        "Attribute": "COLORRGB3 (fine)"
+      },
+      {
+        "Number": 11,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 12,
+        "Attribute": "COLORTEMPERATURE (fine)"
+      },
+      {
+        "Number": 13,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 14,
+        "Attribute": "COLORMIXER"
+      },
+      {
+        "Number": 15,
+        "Attribute": "GOBO1"
+      },
+      {
+        "Number": 16,
+        "Attribute": "GOBO1_POS"
+      },
+      {
+        "Number": 17,
+        "Attribute": "GOBO1_POS (fine)"
+      },
+      {
+        "Number": 18,
+        "Attribute": "GOBO2"
+      },
+      {
+        "Number": 19,
+        "Attribute": "GOBO2_POS"
+      },
+      {
+        "Number": 20,
+        "Attribute": "GOBO2_POS (fine)"
+      },
+      {
+        "Number": 21,
+        "Attribute": "EFFECTWHEEL"
+      },
+      {
+        "Number": 22,
+        "Attribute": "EFFECTINDEXROTATE"
+      },
+      {
+        "Number": 23,
+        "Attribute": "EFFECTINDEXROTATE (fine)"
+      },
+      {
+        "Number": 24,
+        "Attribute": "FOCUS"
+      },
+      {
+        "Number": 25,
+        "Attribute": "FOCUS (fine)"
+      },
+      {
+        "Number": 26,
+        "Attribute": "ZOOM"
+      },
+      {
+        "Number": 27,
+        "Attribute": "ZOOM (fine)"
+      },
+      {
+        "Number": 28,
+        "Attribute": "SHUTTER"
+      },
+      {
+        "Number": 29,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 30,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 31,
+        "Attribute": "INTENSITYMSPEED"
+      },
+      {
+        "Number": 32,
+        "Attribute": "IRIS"
+      },
+      {
+        "Number": 33,
+        "Attribute": "IRIS (fine)"
+      },
+      {
+        "Number": 34,
+        "Attribute": "LIGHTFROST"
+      },
+      {
+        "Number": 35,
+        "Attribute": "HEAVYFROST"
+      },
+      {
+        "Number": 36,
+        "Attribute": "ANIMATIONWHEEL"
+      },
+      {
+        "Number": 37,
+        "Attribute": "ANIMATIONINDEXROTATE"
+      },
+      {
+        "Number": 38,
+        "Attribute": "BLADE1A"
+      },
+      {
+        "Number": 39,
+        "Attribute": "BLADE1A (fine)"
+      },
+      {
+        "Number": 40,
+        "Attribute": "BLADE1B"
+      },
+      {
+        "Number": 41,
+        "Attribute": "BLADE1B (fine)"
+      },
+      {
+        "Number": 42,
+        "Attribute": "BLADE2A"
+      },
+      {
+        "Number": 43,
+        "Attribute": "BLADE2A (fine)"
+      },
+      {
+        "Number": 44,
+        "Attribute": "BLADE2B"
+      },
+      {
+        "Number": 45,
+        "Attribute": "BLADE2B (fine)"
+      },
+      {
+        "Number": 46,
+        "Attribute": "BLADE3A"
+      },
+      {
+        "Number": 47,
+        "Attribute": "BLADE3A (fine)"
+      },
+      {
+        "Number": 48,
+        "Attribute": "BLADE3B"
+      },
+      {
+        "Number": 49,
+        "Attribute": "BLADE3B (fine)"
+      },
+      {
+        "Number": 50,
+        "Attribute": "BLADE4A"
+      },
+      {
+        "Number": 51,
+        "Attribute": "BLADE4A (fine)"
+      },
+      {
+        "Number": 52,
+        "Attribute": "BLADE4B"
+      },
+      {
+        "Number": 53,
+        "Attribute": "BLADE4B (fine)"
+      },
+      {
+        "Number": 54,
+        "Attribute": "SHAPER ROT"
+      },
+      {
+        "Number": 55,
+        "Attribute": "SHAPER ROT (fine)"
+      },
+      {
+        "Number": 56,
+        "Attribute": "POSITIONMSPEED"
+      },
+      {
+        "Number": 57,
+        "Attribute": "FIXTUREGLOBALRESET"
+      }
+    ]
+  },
+  {
+    "Name": "Clay Paky - Aleda B-EYE K10 Easy (RGB)",
+    "Channels": [
+      {
+        "Number": 1,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 2,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 3,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 4,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 5,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 6,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 7,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 8,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 9,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 10,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 11,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 12,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 13,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 14,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 15,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 16,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 17,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 18,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 19,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 20,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 21,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 22,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 23,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 24,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 25,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 26,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 27,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 28,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 29,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 30,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 31,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 32,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 33,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 34,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 35,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 36,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 37,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 38,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 39,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 40,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 41,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 42,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 43,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 44,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 45,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 46,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 47,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 48,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 49,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 50,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 51,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 52,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 53,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 54,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 55,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 56,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 57,
+        "Attribute": "COLORRGB3"
+      }
+    ]
+  },
+  {
+    "Name": "High End Systems - Axon HD (v1.0.0 Global)",
+    "Channels": [
+      {
+        "Number": 1,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 2,
+        "Attribute": "EFFECT"
+      },
+      {
+        "Number": 3,
+        "Attribute": "EFFECTAPARAMETER1"
+      },
+      {
+        "Number": 4,
+        "Attribute": "EFFECTAPARAMETER2"
+      },
+      {
+        "Number": 5,
+        "Attribute": "EFFECTAPARAMETER3"
+      },
+      {
+        "Number": 6,
+        "Attribute": "EFFECT2"
+      },
+      {
+        "Number": 7,
+        "Attribute": "EFFECTBPARAMETER1"
+      },
+      {
+        "Number": 8,
+        "Attribute": "EFFECTBPARAMETER2"
+      },
+      {
+        "Number": 9,
+        "Attribute": "EFFECTBPARAMETER3"
+      },
+      {
+        "Number": 10,
+        "Attribute": "EFFECT3"
+      },
+      {
+        "Number": 11,
+        "Attribute": "EFFECTCPARAMETER1"
+      },
+      {
+        "Number": 12,
+        "Attribute": "EFFECTCPARAMETER2"
+      },
+      {
+        "Number": 13,
+        "Attribute": "EFFECTCPARAMETER3"
+      },
+      {
+        "Number": 14,
+        "Attribute": "EFFECT4"
+      },
+      {
+        "Number": 15,
+        "Attribute": "EFFECTDPARAMETER1"
+      },
+      {
+        "Number": 16,
+        "Attribute": "EFFECTDPARAMETER2"
+      },
+      {
+        "Number": 17,
+        "Attribute": "EFFECTDPARAMETER3"
+      },
+      {
+        "Number": 18,
+        "Attribute": "SYNCSOURCE"
+      },
+      {
+        "Number": 19,
+        "Attribute": "COLLAGETYPE"
+      },
+      {
+        "Number": 20,
+        "Attribute": "COLLAGEARRAYCONFIGURATION"
+      },
+      {
+        "Number": 21,
+        "Attribute": "COLLAGECELL"
+      },
+      {
+        "Number": 22,
+        "Attribute": "COLLAGEBLEND"
+      },
+      {
+        "Number": 23,
+        "Attribute": "ALIGNMENTPATTERN"
+      },
+      {
+        "Number": 24,
+        "Attribute": "EDGEBLENDHORIZONTAL"
+      },
+      {
+        "Number": 25,
+        "Attribute": "EDGEBLENDHORIZONTAL (fine)"
+      },
+      {
+        "Number": 26,
+        "Attribute": "EDGEBLENDVERTICAL"
+      },
+      {
+        "Number": 27,
+        "Attribute": "EDGEBLENDVERTICAL (fine)"
+      },
+      {
+        "Number": 28,
+        "Attribute": "MASK"
+      },
+      {
+        "Number": 29,
+        "Attribute": "MASKSIZE"
+      },
+      {
+        "Number": 30,
+        "Attribute": "MASKEDGE"
+      },
+      {
+        "Number": 31,
+        "Attribute": "KEYSTONEA"
+      },
+      {
+        "Number": 32,
+        "Attribute": "KEYSTONEB"
+      },
+      {
+        "Number": 33,
+        "Attribute": "KEYSTONEA2"
+      },
+      {
+        "Number": 34,
+        "Attribute": "KEYSTONEB2"
+      },
+      {
+        "Number": 35,
+        "Attribute": "KEYSTONEA3"
+      },
+      {
+        "Number": 36,
+        "Attribute": "KEYSTONEB3"
+      },
+      {
+        "Number": 37,
+        "Attribute": "KEYSTONEA4"
+      },
+      {
+        "Number": 38,
+        "Attribute": "KEYSTONEB4"
+      },
+      {
+        "Number": 39,
+        "Attribute": "SCALEX"
+      },
+      {
+        "Number": 40,
+        "Attribute": "SCALEY"
+      },
+      {
+        "Number": 41,
+        "Attribute": "FRAMINGX"
+      },
+      {
+        "Number": 42,
+        "Attribute": "FRAMINGY"
+      },
+      {
+        "Number": 43,
+        "Attribute": "FRAMINGX2"
+      },
+      {
+        "Number": 44,
+        "Attribute": "FRAMINGY2"
+      },
+      {
+        "Number": 45,
+        "Attribute": "FRAMINGX3"
+      },
+      {
+        "Number": 46,
+        "Attribute": "FRAMINGY3"
+      },
+      {
+        "Number": 47,
+        "Attribute": "FRAMINGX4"
+      },
+      {
+        "Number": 48,
+        "Attribute": "FRAMINGY4"
+      },
+      {
+        "Number": 49,
+        "Attribute": "EDGEBLEND"
+      },
+      {
+        "Number": 50,
+        "Attribute": "EDGEBLEND3"
+      },
+      {
+        "Number": 51,
+        "Attribute": "EDGEBLEND2"
+      },
+      {
+        "Number": 52,
+        "Attribute": "EDGEBLEND4"
+      },
+      {
+        "Number": 53,
+        "Attribute": "WARP"
+      },
+      {
+        "Number": 54,
+        "Attribute": "AUDIOVOLUME"
+      },
+      {
+        "Number": 55,
+        "Attribute": "AUDIOBALANCE"
+      },
+      {
+        "Number": 56,
+        "Attribute": "MACROS"
+      },
+      {
+        "Number": 57,
+        "Attribute": "MACROS2"
+      }
+    ]
+  },
+  {
+    "Name": "Acme - Dotline 360 (57 channel)",
+    "Channels": [
+      {
+        "Number": 1,
+        "Attribute": "TILT"
+      },
+      {
+        "Number": 2,
+        "Attribute": "TILT (fine)"
+      },
+      {
+        "Number": 3,
+        "Attribute": "POSITIONMSPEED"
+      },
+      {
+        "Number": 4,
+        "Attribute": "ZOOM"
+      },
+      {
+        "Number": 5,
+        "Attribute": "ZOOM2"
+      },
+      {
+        "Number": 6,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 7,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 8,
+        "Attribute": "SHUTTER"
+      },
+      {
+        "Number": 9,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 10,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 11,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 12,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 13,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 14,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 15,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 16,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 17,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 18,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 19,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 20,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 21,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 22,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 23,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 24,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 25,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 26,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 27,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 28,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 29,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 30,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 31,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 32,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 33,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 34,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 35,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 36,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 37,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 38,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 39,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 40,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 41,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 42,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 43,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 44,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 45,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 46,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 47,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 48,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 49,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 50,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 51,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 52,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 53,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 54,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 55,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 56,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 57,
+        "Attribute": "FIXTUREGLOBALRESET"
+      }
+    ]
+  },
+  {
+    "Name": "Quasar Science - Double Rainbow RR100 (Profile 36: CCT RGB+O 8 Bit - 8 Pixel)",
+    "Channels": [
+      {
+        "Number": 1,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 2,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 3,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 4,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 5,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 6,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 7,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 8,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 9,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 10,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 11,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 12,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 13,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 14,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 15,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 16,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 17,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 18,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 19,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 20,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 21,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 22,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 23,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 24,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 25,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 26,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 27,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 28,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 29,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 30,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 31,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 32,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 33,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 34,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 35,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 36,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 37,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 38,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 39,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 40,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 41,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 42,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 43,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 44,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 45,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 46,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 47,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 48,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 49,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 50,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 51,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 52,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 53,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 54,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 55,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 56,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 57,
+        "Attribute": "INTENSITYMODE"
+      }
+    ]
+  },
+  {
+    "Name": "Ayrton - Arcaline 3 (Extended)",
+    "Channels": [
+      {
+        "Number": 1,
+        "Attribute": "SHUTTER"
+      },
+      {
+        "Number": 2,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 3,
+        "Attribute": "COLORMIXER"
+      },
+      {
+        "Number": 4,
+        "Attribute": "COLORMIXER2"
+      },
+      {
+        "Number": 5,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 6,
+        "Attribute": "CHASE"
+      },
+      {
+        "Number": 7,
+        "Attribute": "CHASERATE"
+      },
+      {
+        "Number": 8,
+        "Attribute": "CHASELEVEL"
+      },
+      {
+        "Number": 9,
+        "Attribute": "MACROS"
+      },
+      {
+        "Number": 10,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 11,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 12,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 13,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 14,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 15,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 16,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 17,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 18,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 19,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 20,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 21,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 22,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 23,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 24,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 25,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 26,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 27,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 28,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 29,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 30,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 31,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 32,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 33,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 34,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 35,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 36,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 37,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 38,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 39,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 40,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 41,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 42,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 43,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 44,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 45,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 46,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 47,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 48,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 49,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 50,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 51,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 52,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 53,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 54,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 55,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 56,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 57,
+        "Attribute": "COLORRGB5"
+      }
+    ]
+  },
+  {
+    "Name": "Robe - DigitalSpot 7000DT (v1.1 - Server master channels)",
+    "Channels": [
+      {
+        "Number": 1,
+        "Attribute": "PAN"
+      },
+      {
+        "Number": 2,
+        "Attribute": "PAN (fine)"
+      },
+      {
+        "Number": 3,
+        "Attribute": "TILT"
+      },
+      {
+        "Number": 4,
+        "Attribute": "TILT (fine)"
+      },
+      {
+        "Number": 5,
+        "Attribute": "POSITIONMSPEED"
+      },
+      {
+        "Number": 6,
+        "Attribute": "POSITIONMACROS"
+      },
+      {
+        "Number": 7,
+        "Attribute": "POSITIONMACRORATE"
+      },
+      {
+        "Number": 8,
+        "Attribute": "LAMPCONTROL"
+      },
+      {
+        "Number": 9,
+        "Attribute": "PROJECTORINPUT"
+      },
+      {
+        "Number": 10,
+        "Attribute": "PROJECTORZOOM"
+      },
+      {
+        "Number": 11,
+        "Attribute": "PROJECTORFOCUS"
+      },
+      {
+        "Number": 12,
+        "Attribute": "PROJECTORINTENSITY"
+      },
+      {
+        "Number": 13,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 14,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 15,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 16,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 17,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 18,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 19,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 20,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 21,
+        "Attribute": "SHUTTER"
+      },
+      {
+        "Number": 22,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 23,
+        "Attribute": "KEYSTONEA"
+      },
+      {
+        "Number": 24,
+        "Attribute": "KEYSTONEB"
+      },
+      {
+        "Number": 25,
+        "Attribute": "KEYSTONEA2"
+      },
+      {
+        "Number": 26,
+        "Attribute": "KEYSTONEB2"
+      },
+      {
+        "Number": 27,
+        "Attribute": "KEYSTONEA3"
+      },
+      {
+        "Number": 28,
+        "Attribute": "KEYSTONEB3"
+      },
+      {
+        "Number": 29,
+        "Attribute": "KEYSTONEA4"
+      },
+      {
+        "Number": 30,
+        "Attribute": "KEYSTONEB4"
+      },
+      {
+        "Number": 31,
+        "Attribute": "KEYSTONEXRATIO"
+      },
+      {
+        "Number": 32,
+        "Attribute": "KEYSTONEYRATIO"
+      },
+      {
+        "Number": 33,
+        "Attribute": "CYANADJUST"
+      },
+      {
+        "Number": 34,
+        "Attribute": "MAGENTAADJUST"
+      },
+      {
+        "Number": 35,
+        "Attribute": "YELLOWADJUST"
+      },
+      {
+        "Number": 36,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 37,
+        "Attribute": "DIGITALIRISEFFECT"
+      },
+      {
+        "Number": 38,
+        "Attribute": "DIGITALIRIS"
+      },
+      {
+        "Number": 39,
+        "Attribute": "DIGITALIRIS (fine)"
+      },
+      {
+        "Number": 40,
+        "Attribute": "DIGITALIRISSHUTTERSTROBE"
+      },
+      {
+        "Number": 41,
+        "Attribute": "BLADE4A"
+      },
+      {
+        "Number": 42,
+        "Attribute": "BLADE4B"
+      },
+      {
+        "Number": 43,
+        "Attribute": "BLADE2A"
+      },
+      {
+        "Number": 44,
+        "Attribute": "BLADE2B"
+      },
+      {
+        "Number": 45,
+        "Attribute": "BLADE1A"
+      },
+      {
+        "Number": 46,
+        "Attribute": "BLADE1B"
+      },
+      {
+        "Number": 47,
+        "Attribute": "BLADE3A"
+      },
+      {
+        "Number": 48,
+        "Attribute": "BLADE3B"
+      },
+      {
+        "Number": 49,
+        "Attribute": "SHAPER ROT"
+      },
+      {
+        "Number": 50,
+        "Attribute": "EFFECT"
+      },
+      {
+        "Number": 51,
+        "Attribute": "EFFECTAPARAMETER1"
+      },
+      {
+        "Number": 52,
+        "Attribute": "EFFECTAPARAMETER2"
+      },
+      {
+        "Number": 53,
+        "Attribute": "EFFECTAPARAMETER3"
+      },
+      {
+        "Number": 54,
+        "Attribute": "EFFECT2"
+      },
+      {
+        "Number": 55,
+        "Attribute": "EFFECTBPARAMETER1"
+      },
+      {
+        "Number": 56,
+        "Attribute": "EFFECTBPARAMETER2"
+      },
+      {
+        "Number": 57,
+        "Attribute": "EFFECTBPARAMETER3"
+      }
+    ]
+  },
+  {
+    "Name": "High End Systems - Halcyon Gold Ultra-Bright (Standard)",
+    "Channels": [
+      {
+        "Number": 1,
+        "Attribute": "PAN"
+      },
+      {
+        "Number": 2,
+        "Attribute": "PAN (fine)"
+      },
+      {
+        "Number": 3,
+        "Attribute": "TILT"
+      },
+      {
+        "Number": 4,
+        "Attribute": "TILT (fine)"
+      },
+      {
+        "Number": 5,
+        "Attribute": "COLORMIXMODE"
+      },
+      {
+        "Number": 6,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 7,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 8,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 9,
+        "Attribute": "CTO"
+      },
+      {
+        "Number": 10,
+        "Attribute": "COLOR1_MODE"
+      },
+      {
+        "Number": 11,
+        "Attribute": "COLOR1"
+      },
+      {
+        "Number": 12,
+        "Attribute": "GOBO1WHEELMODE"
+      },
+      {
+        "Number": 13,
+        "Attribute": "GOBO1"
+      },
+      {
+        "Number": 14,
+        "Attribute": "GOBO1_MODE"
+      },
+      {
+        "Number": 15,
+        "Attribute": "GOBO1_POS"
+      },
+      {
+        "Number": 16,
+        "Attribute": "GOBO1_POS (fine)"
+      },
+      {
+        "Number": 17,
+        "Attribute": "GOBO2WHEELMODE"
+      },
+      {
+        "Number": 18,
+        "Attribute": "GOBO2"
+      },
+      {
+        "Number": 19,
+        "Attribute": "BLADE3B"
+      },
+      {
+        "Number": 20,
+        "Attribute": "BLADE3A"
+      },
+      {
+        "Number": 21,
+        "Attribute": "BLADE1B"
+      },
+      {
+        "Number": 22,
+        "Attribute": "BLADE1A"
+      },
+      {
+        "Number": 23,
+        "Attribute": "BLADE4B"
+      },
+      {
+        "Number": 24,
+        "Attribute": "BLADE4A"
+      },
+      {
+        "Number": 25,
+        "Attribute": "BLADE2B"
+      },
+      {
+        "Number": 26,
+        "Attribute": "BLADE2A"
+      },
+      {
+        "Number": 27,
+        "Attribute": "SHAPER ROT"
+      },
+      {
+        "Number": 28,
+        "Attribute": "SHAPER ROT (fine)"
+      },
+      {
+        "Number": 29,
+        "Attribute": "ANIMATIONWHEEL"
+      },
+      {
+        "Number": 30,
+        "Attribute": "ANIMATIONINDEXROTATE"
+      },
+      {
+        "Number": 31,
+        "Attribute": "EFFECTWHEEL"
+      },
+      {
+        "Number": 32,
+        "Attribute": "EFFECTINDEXROTATE"
+      },
+      {
+        "Number": 33,
+        "Attribute": "EFFECTINDEXROTATE (fine)"
+      },
+      {
+        "Number": 34,
+        "Attribute": "EFFECTWHEEL2"
+      },
+      {
+        "Number": 35,
+        "Attribute": "EFFECTINDEXROTATE2"
+      },
+      {
+        "Number": 36,
+        "Attribute": "EFFECTINDEXROTATE2 (fine)"
+      },
+      {
+        "Number": 37,
+        "Attribute": "FROST"
+      },
+      {
+        "Number": 38,
+        "Attribute": "LIGHTFROST"
+      },
+      {
+        "Number": 39,
+        "Attribute": "MEDIUMFROST"
+      },
+      {
+        "Number": 40,
+        "Attribute": "HEAVYFROST"
+      },
+      {
+        "Number": 41,
+        "Attribute": "FOCUS"
+      },
+      {
+        "Number": 42,
+        "Attribute": "FOCUS (fine)"
+      },
+      {
+        "Number": 43,
+        "Attribute": "ZOOM"
+      },
+      {
+        "Number": 44,
+        "Attribute": "ZOOM (fine)"
+      },
+      {
+        "Number": 45,
+        "Attribute": "FOCUSDISTANCE"
+      },
+      {
+        "Number": 46,
+        "Attribute": "FOCUSDISTANCE (fine)"
+      },
+      {
+        "Number": 47,
+        "Attribute": "IRIS"
+      },
+      {
+        "Number": 48,
+        "Attribute": "STROBEMODE"
+      },
+      {
+        "Number": 49,
+        "Attribute": "SHUTTER"
+      },
+      {
+        "Number": 50,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 51,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 52,
+        "Attribute": "LEDENGINEEFFECTS"
+      },
+      {
+        "Number": 53,
+        "Attribute": "LEDENGINEEFFECTRATE"
+      },
+      {
+        "Number": 54,
+        "Attribute": "LEDENGINEEFFECTCROSSFADESPEED"
+      },
+      {
+        "Number": 55,
+        "Attribute": "GLOBALMSPEED"
+      },
+      {
+        "Number": 56,
+        "Attribute": "FIXTUREGLOBALRESET"
+      },
+      {
+        "Number": 57,
+        "Attribute": "FANS"
+      }
+    ]
+  },
+  {
+    "Name": "Expolite - ELW MC 12 (Pixel)",
+    "Channels": [
+      {
+        "Number": 1,
+        "Attribute": "PAN"
+      },
+      {
+        "Number": 2,
+        "Attribute": "PAN (fine)"
+      },
+      {
+        "Number": 3,
+        "Attribute": "TILT"
+      },
+      {
+        "Number": 4,
+        "Attribute": "TILT (fine)"
+      },
+      {
+        "Number": 5,
+        "Attribute": "POSITIONMSPEED"
+      },
+      {
+        "Number": 6,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 7,
+        "Attribute": "SHUTTER"
+      },
+      {
+        "Number": 8,
+        "Attribute": "ZOOM"
+      },
+      {
+        "Number": 9,
+        "Attribute": "MODE"
+      },
+      {
+        "Number": 10,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 11,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 12,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 13,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 14,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 15,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 16,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 17,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 18,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 19,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 20,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 21,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 22,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 23,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 24,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 25,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 26,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 27,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 28,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 29,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 30,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 31,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 32,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 33,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 34,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 35,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 36,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 37,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 38,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 39,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 40,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 41,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 42,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 43,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 44,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 45,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 46,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 47,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 48,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 49,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 50,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 51,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 52,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 53,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 54,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 55,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 56,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 57,
+        "Attribute": "COLORRGB5"
+      }
+    ]
+  },
+  {
+    "Name": "Robe - DigitalSpot 7000DT (v1.7 - Server master channels)",
+    "Channels": [
+      {
+        "Number": 1,
+        "Attribute": "PAN"
+      },
+      {
+        "Number": 2,
+        "Attribute": "PAN (fine)"
+      },
+      {
+        "Number": 3,
+        "Attribute": "TILT"
+      },
+      {
+        "Number": 4,
+        "Attribute": "TILT (fine)"
+      },
+      {
+        "Number": 5,
+        "Attribute": "POSITIONMSPEED"
+      },
+      {
+        "Number": 6,
+        "Attribute": "POSITIONMACROS"
+      },
+      {
+        "Number": 7,
+        "Attribute": "POSITIONMACRORATE"
+      },
+      {
+        "Number": 8,
+        "Attribute": "LAMPCONTROL"
+      },
+      {
+        "Number": 9,
+        "Attribute": "PROJECTORINPUT"
+      },
+      {
+        "Number": 10,
+        "Attribute": "PROJECTORZOOM"
+      },
+      {
+        "Number": 11,
+        "Attribute": "PROJECTORFOCUS"
+      },
+      {
+        "Number": 12,
+        "Attribute": "PROJECTORIRIS"
+      },
+      {
+        "Number": 13,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 14,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 15,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 16,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 17,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 18,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 19,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 20,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 21,
+        "Attribute": "SHUTTER"
+      },
+      {
+        "Number": 22,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 23,
+        "Attribute": "KEYSTONEA"
+      },
+      {
+        "Number": 24,
+        "Attribute": "KEYSTONEB"
+      },
+      {
+        "Number": 25,
+        "Attribute": "KEYSTONEA2"
+      },
+      {
+        "Number": 26,
+        "Attribute": "KEYSTONEB2"
+      },
+      {
+        "Number": 27,
+        "Attribute": "KEYSTONEA3"
+      },
+      {
+        "Number": 28,
+        "Attribute": "KEYSTONEB3"
+      },
+      {
+        "Number": 29,
+        "Attribute": "KEYSTONEA4"
+      },
+      {
+        "Number": 30,
+        "Attribute": "KEYSTONEB4"
+      },
+      {
+        "Number": 31,
+        "Attribute": "KEYSTONEXRATIO"
+      },
+      {
+        "Number": 32,
+        "Attribute": "KEYSTONEYRATIO"
+      },
+      {
+        "Number": 33,
+        "Attribute": "CYANADJUST"
+      },
+      {
+        "Number": 34,
+        "Attribute": "MAGENTAADJUST"
+      },
+      {
+        "Number": 35,
+        "Attribute": "YELLOWADJUST"
+      },
+      {
+        "Number": 36,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 37,
+        "Attribute": "DIGITALIRISEFFECT"
+      },
+      {
+        "Number": 38,
+        "Attribute": "DIGITALIRIS"
+      },
+      {
+        "Number": 39,
+        "Attribute": "DIGITALIRIS (fine)"
+      },
+      {
+        "Number": 40,
+        "Attribute": "DIGITALIRISSHUTTERSTROBE"
+      },
+      {
+        "Number": 41,
+        "Attribute": "BLADE4A"
+      },
+      {
+        "Number": 42,
+        "Attribute": "BLADE4B"
+      },
+      {
+        "Number": 43,
+        "Attribute": "BLADE2A"
+      },
+      {
+        "Number": 44,
+        "Attribute": "BLADE2B"
+      },
+      {
+        "Number": 45,
+        "Attribute": "BLADE1A"
+      },
+      {
+        "Number": 46,
+        "Attribute": "BLADE1B"
+      },
+      {
+        "Number": 47,
+        "Attribute": "BLADE3A"
+      },
+      {
+        "Number": 48,
+        "Attribute": "BLADE3B"
+      },
+      {
+        "Number": 49,
+        "Attribute": "SHAPER ROT"
+      },
+      {
+        "Number": 50,
+        "Attribute": "OVERLAY"
+      },
+      {
+        "Number": 51,
+        "Attribute": "FIELDOFVIEW"
+      },
+      {
+        "Number": 52,
+        "Attribute": "VIEWPOINTMODE"
+      },
+      {
+        "Number": 53,
+        "Attribute": "EDGEBLEND"
+      },
+      {
+        "Number": 54,
+        "Attribute": "VIDEOMAP"
+      },
+      {
+        "Number": 55,
+        "Attribute": "EFFECTPARAMETER"
+      },
+      {
+        "Number": 56,
+        "Attribute": "EFFECTPARAMETER2"
+      },
+      {
+        "Number": 57,
+        "Attribute": "EFFECTPARAMETER3"
+      }
+    ]
+  },
+  {
+    "Name": "Astera LED Technology - Helios Tube (DIM CCT GM CRO RGB S 8 Pixel - Single Strobe)",
+    "Channels": [
+      {
+        "Number": 1,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 2,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 3,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 4,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 5,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 6,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 7,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 8,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 9,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 10,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 11,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 12,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 13,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 14,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 15,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 16,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 17,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 18,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 19,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 20,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 21,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 22,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 23,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 24,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 25,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 26,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 27,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 28,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 29,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 30,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 31,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 32,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 33,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 34,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 35,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 36,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 37,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 38,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 39,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 40,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 41,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 42,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 43,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 44,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 45,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 46,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 47,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 48,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 49,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 50,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 51,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 52,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 53,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 54,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 55,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 56,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 57,
+        "Attribute": "SHUTTER"
+      }
+    ]
+  },
+  {
+    "Name": "ROXX - Cluster B4 FC (57ch Extended RGB)",
+    "Channels": [
+      {
+        "Number": 1,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 2,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 3,
+        "Attribute": "SHUTTER"
+      },
+      {
+        "Number": 4,
+        "Attribute": "STROBEDURATION"
+      },
+      {
+        "Number": 5,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 6,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 7,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 8,
+        "Attribute": "COLORRGB1 (fine)"
+      },
+      {
+        "Number": 9,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 10,
+        "Attribute": "COLORRGB2 (fine)"
+      },
+      {
+        "Number": 11,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 12,
+        "Attribute": "COLORRGB3 (fine)"
+      },
+      {
+        "Number": 13,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 14,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 15,
+        "Attribute": "COLORMIXER"
+      },
+      {
+        "Number": 16,
+        "Attribute": "COLOURMIXCROSSFADERATE"
+      },
+      {
+        "Number": 17,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 18,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 19,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 20,
+        "Attribute": "COLORRGB1 (fine)"
+      },
+      {
+        "Number": 21,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 22,
+        "Attribute": "COLORRGB2 (fine)"
+      },
+      {
+        "Number": 23,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 24,
+        "Attribute": "COLORRGB3 (fine)"
+      },
+      {
+        "Number": 25,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 26,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 27,
+        "Attribute": "COLORMIXER"
+      },
+      {
+        "Number": 28,
+        "Attribute": "COLOURMIXCROSSFADERATE"
+      },
+      {
+        "Number": 29,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 30,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 31,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 32,
+        "Attribute": "COLORRGB1 (fine)"
+      },
+      {
+        "Number": 33,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 34,
+        "Attribute": "COLORRGB2 (fine)"
+      },
+      {
+        "Number": 35,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 36,
+        "Attribute": "COLORRGB3 (fine)"
+      },
+      {
+        "Number": 37,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 38,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 39,
+        "Attribute": "COLORMIXER"
+      },
+      {
+        "Number": 40,
+        "Attribute": "COLOURMIXCROSSFADERATE"
+      },
+      {
+        "Number": 41,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 42,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 43,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 44,
+        "Attribute": "COLORRGB1 (fine)"
+      },
+      {
+        "Number": 45,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 46,
+        "Attribute": "COLORRGB2 (fine)"
+      },
+      {
+        "Number": 47,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 48,
+        "Attribute": "COLORRGB3 (fine)"
+      },
+      {
+        "Number": 49,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 50,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 51,
+        "Attribute": "COLORMIXER"
+      },
+      {
+        "Number": 52,
+        "Attribute": "COLOURMIXCROSSFADERATE"
+      },
+      {
+        "Number": 53,
+        "Attribute": "MACROS"
+      },
+      {
+        "Number": 54,
+        "Attribute": "DIMMERCURVE"
+      },
+      {
+        "Number": 55,
+        "Attribute": "DIMMERCURVEMODE"
+      },
+      {
+        "Number": 56,
+        "Attribute": "REDSHIFT"
+      },
+      {
+        "Number": 57,
+        "Attribute": "FIXTUREGLOBALRESET"
+      }
+    ]
+  },
+  {
+    "Name": "Showtec - Infinity S601 Profile (Advanced)",
+    "Channels": [
+      {
+        "Number": 1,
+        "Attribute": "PAN"
+      },
+      {
+        "Number": 2,
+        "Attribute": "PAN (fine)"
+      },
+      {
+        "Number": 3,
+        "Attribute": "TILT"
+      },
+      {
+        "Number": 4,
+        "Attribute": "TILT (fine)"
+      },
+      {
+        "Number": 5,
+        "Attribute": "POSITIONMSPEED"
+      },
+      {
+        "Number": 6,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 7,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 8,
+        "Attribute": "SHUTTER"
+      },
+      {
+        "Number": 9,
+        "Attribute": "COLOR1"
+      },
+      {
+        "Number": 10,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 11,
+        "Attribute": "COLORRGB1 (fine)"
+      },
+      {
+        "Number": 12,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 13,
+        "Attribute": "COLORRGB2 (fine)"
+      },
+      {
+        "Number": 14,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 15,
+        "Attribute": "COLORRGB3 (fine)"
+      },
+      {
+        "Number": 16,
+        "Attribute": "CTO"
+      },
+      {
+        "Number": 17,
+        "Attribute": "CTO (fine)"
+      },
+      {
+        "Number": 18,
+        "Attribute": "COLORMIXER"
+      },
+      {
+        "Number": 19,
+        "Attribute": "GOBO1"
+      },
+      {
+        "Number": 20,
+        "Attribute": "GOBO1_POS"
+      },
+      {
+        "Number": 21,
+        "Attribute": "GOBO1_POS (fine)"
+      },
+      {
+        "Number": 22,
+        "Attribute": "GOBO2"
+      },
+      {
+        "Number": 23,
+        "Attribute": "GOBO2_POS"
+      },
+      {
+        "Number": 24,
+        "Attribute": "GOBO2_POS (fine)"
+      },
+      {
+        "Number": 25,
+        "Attribute": "EFFECTWHEEL"
+      },
+      {
+        "Number": 26,
+        "Attribute": "EFFECTINDEXROTATE"
+      },
+      {
+        "Number": 27,
+        "Attribute": "EFFECTINDEXROTATE (fine)"
+      },
+      {
+        "Number": 28,
+        "Attribute": "ZOOM"
+      },
+      {
+        "Number": 29,
+        "Attribute": "ZOOM (fine)"
+      },
+      {
+        "Number": 30,
+        "Attribute": "IRIS"
+      },
+      {
+        "Number": 31,
+        "Attribute": "IRIS (fine)"
+      },
+      {
+        "Number": 32,
+        "Attribute": "IRISMODE"
+      },
+      {
+        "Number": 33,
+        "Attribute": "FOCUS"
+      },
+      {
+        "Number": 34,
+        "Attribute": "FOCUS (fine)"
+      },
+      {
+        "Number": 35,
+        "Attribute": "FOCUSDISTANCE"
+      },
+      {
+        "Number": 36,
+        "Attribute": "FROST"
+      },
+      {
+        "Number": 37,
+        "Attribute": "ANIMATIONWHEEL"
+      },
+      {
+        "Number": 38,
+        "Attribute": "LEDENGINEEFFECTS"
+      },
+      {
+        "Number": 39,
+        "Attribute": "BLADE3A"
+      },
+      {
+        "Number": 40,
+        "Attribute": "BLADE3A (fine)"
+      },
+      {
+        "Number": 41,
+        "Attribute": "BLADE3B"
+      },
+      {
+        "Number": 42,
+        "Attribute": "BLADE3B (fine)"
+      },
+      {
+        "Number": 43,
+        "Attribute": "BLADE2A"
+      },
+      {
+        "Number": 44,
+        "Attribute": "BLADE2A (fine)"
+      },
+      {
+        "Number": 45,
+        "Attribute": "BLADE2B"
+      },
+      {
+        "Number": 46,
+        "Attribute": "BLADE2B (fine)"
+      },
+      {
+        "Number": 47,
+        "Attribute": "BLADE1A"
+      },
+      {
+        "Number": 48,
+        "Attribute": "BLADE1A (fine)"
+      },
+      {
+        "Number": 49,
+        "Attribute": "BLADE1B"
+      },
+      {
+        "Number": 50,
+        "Attribute": "BLADE1B (fine)"
+      },
+      {
+        "Number": 51,
+        "Attribute": "BLADE4A"
+      },
+      {
+        "Number": 52,
+        "Attribute": "BLADE4A (fine)"
+      },
+      {
+        "Number": 53,
+        "Attribute": "BLADE4B"
+      },
+      {
+        "Number": 54,
+        "Attribute": "BLADE4B (fine)"
+      },
+      {
+        "Number": 55,
+        "Attribute": "SHAPER ROT"
+      },
+      {
+        "Number": 56,
+        "Attribute": "FRAMEMACROS"
+      },
+      {
+        "Number": 57,
+        "Attribute": "FIXTUREGLOBALRESET"
+      }
+    ]
+  },
+  {
+    "Name": "Astera LED Technology - FP1 Titan Tube (D CCT GM CRO RGB S 8 Pixel - Single Strobe)",
+    "Channels": [
+      {
+        "Number": 1,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 2,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 3,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 4,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 5,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 6,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 7,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 8,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 9,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 10,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 11,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 12,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 13,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 14,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 15,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 16,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 17,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 18,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 19,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 20,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 21,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 22,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 23,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 24,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 25,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 26,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 27,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 28,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 29,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 30,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 31,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 32,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 33,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 34,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 35,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 36,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 37,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 38,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 39,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 40,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 41,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 42,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 43,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 44,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 45,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 46,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 47,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 48,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 49,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 50,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 51,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 52,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 53,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 54,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 55,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 56,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 57,
+        "Attribute": "SHUTTER"
+      }
+    ]
+  },
+  {
+    "Name": "V-Show - B1240Z (Extended - 57 channel)",
+    "Channels": [
+      {
+        "Number": 1,
+        "Attribute": "TILT"
+      },
+      {
+        "Number": 2,
+        "Attribute": "TILT (fine)"
+      },
+      {
+        "Number": 3,
+        "Attribute": "TILTMSPEED"
+      },
+      {
+        "Number": 4,
+        "Attribute": "ZOOM"
+      },
+      {
+        "Number": 5,
+        "Attribute": "ZOOM"
+      },
+      {
+        "Number": 6,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 7,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 8,
+        "Attribute": "SHUTTER"
+      },
+      {
+        "Number": 9,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 10,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 11,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 12,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 13,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 14,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 15,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 16,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 17,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 18,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 19,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 20,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 21,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 22,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 23,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 24,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 25,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 26,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 27,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 28,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 29,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 30,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 31,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 32,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 33,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 34,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 35,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 36,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 37,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 38,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 39,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 40,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 41,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 42,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 43,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 44,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 45,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 46,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 47,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 48,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 49,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 50,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 51,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 52,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 53,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 54,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 55,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 56,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 57,
+        "Attribute": "FIXTUREGLOBALRESET"
+      }
+    ]
+  },
+  {
+    "Name": "Astera LED Technology - Helios Tube (D16 CCT GM H SAT S 8 Pixel - Single Strobe)",
+    "Channels": [
+      {
+        "Number": 1,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 2,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 3,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 4,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 5,
+        "Attribute": "HUE"
+      },
+      {
+        "Number": 6,
+        "Attribute": "HUE (fine)"
+      },
+      {
+        "Number": 7,
+        "Attribute": "SATURATION"
+      },
+      {
+        "Number": 8,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 9,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 10,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 11,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 12,
+        "Attribute": "HUE"
+      },
+      {
+        "Number": 13,
+        "Attribute": "HUE (fine)"
+      },
+      {
+        "Number": 14,
+        "Attribute": "SATURATION"
+      },
+      {
+        "Number": 15,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 16,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 17,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 18,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 19,
+        "Attribute": "HUE"
+      },
+      {
+        "Number": 20,
+        "Attribute": "HUE (fine)"
+      },
+      {
+        "Number": 21,
+        "Attribute": "SATURATION"
+      },
+      {
+        "Number": 22,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 23,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 24,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 25,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 26,
+        "Attribute": "HUE"
+      },
+      {
+        "Number": 27,
+        "Attribute": "HUE (fine)"
+      },
+      {
+        "Number": 28,
+        "Attribute": "SATURATION"
+      },
+      {
+        "Number": 29,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 30,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 31,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 32,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 33,
+        "Attribute": "HUE"
+      },
+      {
+        "Number": 34,
+        "Attribute": "HUE (fine)"
+      },
+      {
+        "Number": 35,
+        "Attribute": "SATURATION"
+      },
+      {
+        "Number": 36,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 37,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 38,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 39,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 40,
+        "Attribute": "HUE"
+      },
+      {
+        "Number": 41,
+        "Attribute": "HUE (fine)"
+      },
+      {
+        "Number": 42,
+        "Attribute": "SATURATION"
+      },
+      {
+        "Number": 43,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 44,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 45,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 46,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 47,
+        "Attribute": "HUE"
+      },
+      {
+        "Number": 48,
+        "Attribute": "HUE (fine)"
+      },
+      {
+        "Number": 49,
+        "Attribute": "SATURATION"
+      },
+      {
+        "Number": 50,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 51,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 52,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 53,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 54,
+        "Attribute": "HUE"
+      },
+      {
+        "Number": 55,
+        "Attribute": "HUE (fine)"
+      },
+      {
+        "Number": 56,
+        "Attribute": "SATURATION"
+      },
+      {
+        "Number": 57,
+        "Attribute": "SHUTTER"
+      }
+    ]
+  },
+  {
+    "Name": "VariLite - VL4000 Spot (16 bit - Enhanced)",
+    "Channels": [
+      {
+        "Number": 1,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 2,
+        "Attribute": "PAN"
+      },
+      {
+        "Number": 3,
+        "Attribute": "PAN (fine)"
+      },
+      {
+        "Number": 4,
+        "Attribute": "TILT"
+      },
+      {
+        "Number": 5,
+        "Attribute": "TILT (fine)"
+      },
+      {
+        "Number": 6,
+        "Attribute": "FOCUS"
+      },
+      {
+        "Number": 7,
+        "Attribute": "FOCUS (fine)"
+      },
+      {
+        "Number": 8,
+        "Attribute": "ZOOM"
+      },
+      {
+        "Number": 9,
+        "Attribute": "ZOOM (fine)"
+      },
+      {
+        "Number": 10,
+        "Attribute": "DIMMERCURVE"
+      },
+      {
+        "Number": 11,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 12,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 13,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 14,
+        "Attribute": "CTO"
+      },
+      {
+        "Number": 15,
+        "Attribute": "COLOR1"
+      },
+      {
+        "Number": 16,
+        "Attribute": "COLOR1_MODE"
+      },
+      {
+        "Number": 17,
+        "Attribute": "COLOR2"
+      },
+      {
+        "Number": 18,
+        "Attribute": "COLOR2_MODE"
+      },
+      {
+        "Number": 19,
+        "Attribute": "GOBO1"
+      },
+      {
+        "Number": 20,
+        "Attribute": "GOBO1_POS"
+      },
+      {
+        "Number": 21,
+        "Attribute": "GOBO1_POS (fine)"
+      },
+      {
+        "Number": 22,
+        "Attribute": "GOBO1WHEELMODE"
+      },
+      {
+        "Number": 23,
+        "Attribute": "GOBO2"
+      },
+      {
+        "Number": 24,
+        "Attribute": "GOBO2_POS"
+      },
+      {
+        "Number": 25,
+        "Attribute": "GOBO2_POS (fine)"
+      },
+      {
+        "Number": 26,
+        "Attribute": "GOBO2WHEELMODE"
+      },
+      {
+        "Number": 27,
+        "Attribute": "ANIMATIONWHEEL"
+      },
+      {
+        "Number": 28,
+        "Attribute": "ANIMATIONINDEXROTATE"
+      },
+      {
+        "Number": 29,
+        "Attribute": "ANIMATIONINDEXROTATE (fine)"
+      },
+      {
+        "Number": 30,
+        "Attribute": "ANIMATIONINDEXROTATEMODE"
+      },
+      {
+        "Number": 31,
+        "Attribute": "ANIMATIONWHEEL2"
+      },
+      {
+        "Number": 32,
+        "Attribute": "ANIMATIONINDEXROTATE2"
+      },
+      {
+        "Number": 33,
+        "Attribute": "ANIMATIONINDEXROTATE2 (fine)"
+      },
+      {
+        "Number": 34,
+        "Attribute": "ANIMATIONINDEXROTATEMODE2"
+      },
+      {
+        "Number": 35,
+        "Attribute": "IRIS"
+      },
+      {
+        "Number": 36,
+        "Attribute": "BLADE3A"
+      },
+      {
+        "Number": 37,
+        "Attribute": "BLADE3B"
+      },
+      {
+        "Number": 38,
+        "Attribute": "BLADE4A"
+      },
+      {
+        "Number": 39,
+        "Attribute": "BLADE4B"
+      },
+      {
+        "Number": 40,
+        "Attribute": "BLADE1A"
+      },
+      {
+        "Number": 41,
+        "Attribute": "BLADE1B"
+      },
+      {
+        "Number": 42,
+        "Attribute": "BLADE2A"
+      },
+      {
+        "Number": 43,
+        "Attribute": "BLADE2B"
+      },
+      {
+        "Number": 44,
+        "Attribute": "SHAPER ROT"
+      },
+      {
+        "Number": 45,
+        "Attribute": "EFFECTWHEEL"
+      },
+      {
+        "Number": 46,
+        "Attribute": "EFFECTINDEXROTATE"
+      },
+      {
+        "Number": 47,
+        "Attribute": "EFFECTINDEXROTATE (fine)"
+      },
+      {
+        "Number": 48,
+        "Attribute": "EFFECTWHEELPOSITION"
+      },
+      {
+        "Number": 49,
+        "Attribute": "FROST"
+      },
+      {
+        "Number": 50,
+        "Attribute": "SHUTTER"
+      },
+      {
+        "Number": 51,
+        "Attribute": "STROBEMODE"
+      },
+      {
+        "Number": 52,
+        "Attribute": "POSITIONMSPEED"
+      },
+      {
+        "Number": 53,
+        "Attribute": "ZOOMMSPEED"
+      },
+      {
+        "Number": 54,
+        "Attribute": "COLORMIXMSPEED"
+      },
+      {
+        "Number": 55,
+        "Attribute": "FRAMEMSPEED"
+      },
+      {
+        "Number": 56,
+        "Attribute": "GOBO1WHEELSELECTMSPEED"
+      },
+      {
+        "Number": 57,
+        "Attribute": "FIXTUREGLOBALRESET"
+      }
+    ]
+  },
+  {
+    "Name": "Astera LED Technology - FP1 Titan Tube (D16 CCT GM H SAT S 8 Pixel - Single Strobe)",
+    "Channels": [
+      {
+        "Number": 1,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 2,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 3,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 4,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 5,
+        "Attribute": "HUE"
+      },
+      {
+        "Number": 6,
+        "Attribute": "HUE (fine)"
+      },
+      {
+        "Number": 7,
+        "Attribute": "SATURATION"
+      },
+      {
+        "Number": 8,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 9,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 10,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 11,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 12,
+        "Attribute": "HUE"
+      },
+      {
+        "Number": 13,
+        "Attribute": "HUE (fine)"
+      },
+      {
+        "Number": 14,
+        "Attribute": "SATURATION"
+      },
+      {
+        "Number": 15,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 16,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 17,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 18,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 19,
+        "Attribute": "HUE"
+      },
+      {
+        "Number": 20,
+        "Attribute": "HUE (fine)"
+      },
+      {
+        "Number": 21,
+        "Attribute": "SATURATION"
+      },
+      {
+        "Number": 22,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 23,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 24,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 25,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 26,
+        "Attribute": "HUE"
+      },
+      {
+        "Number": 27,
+        "Attribute": "HUE (fine)"
+      },
+      {
+        "Number": 28,
+        "Attribute": "SATURATION"
+      },
+      {
+        "Number": 29,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 30,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 31,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 32,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 33,
+        "Attribute": "HUE"
+      },
+      {
+        "Number": 34,
+        "Attribute": "HUE (fine)"
+      },
+      {
+        "Number": 35,
+        "Attribute": "SATURATION"
+      },
+      {
+        "Number": 36,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 37,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 38,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 39,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 40,
+        "Attribute": "HUE"
+      },
+      {
+        "Number": 41,
+        "Attribute": "HUE (fine)"
+      },
+      {
+        "Number": 42,
+        "Attribute": "SATURATION"
+      },
+      {
+        "Number": 43,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 44,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 45,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 46,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 47,
+        "Attribute": "HUE"
+      },
+      {
+        "Number": 48,
+        "Attribute": "HUE (fine)"
+      },
+      {
+        "Number": 49,
+        "Attribute": "SATURATION"
+      },
+      {
+        "Number": 50,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 51,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 52,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 53,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 54,
+        "Attribute": "HUE"
+      },
+      {
+        "Number": 55,
+        "Attribute": "HUE (fine)"
+      },
+      {
+        "Number": 56,
+        "Attribute": "SATURATION"
+      },
+      {
+        "Number": 57,
+        "Attribute": "SHUTTER"
+      }
+    ]
+  },
+  {
+    "Name": "Silver Star - Pluto 4000XE (Pixel)",
+    "Channels": [
+      {
+        "Number": 1,
+        "Attribute": "PAN"
+      },
+      {
+        "Number": 2,
+        "Attribute": "PAN (fine)"
+      },
+      {
+        "Number": 3,
+        "Attribute": "TILT"
+      },
+      {
+        "Number": 4,
+        "Attribute": "TILT (fine)"
+      },
+      {
+        "Number": 5,
+        "Attribute": "POSITIONMSPEED"
+      },
+      {
+        "Number": 6,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 7,
+        "Attribute": "SHUTTER"
+      },
+      {
+        "Number": 8,
+        "Attribute": "ZOOM"
+      },
+      {
+        "Number": 9,
+        "Attribute": "MODE"
+      },
+      {
+        "Number": 10,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 11,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 12,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 13,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 14,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 15,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 16,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 17,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 18,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 19,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 20,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 21,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 22,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 23,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 24,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 25,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 26,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 27,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 28,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 29,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 30,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 31,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 32,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 33,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 34,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 35,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 36,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 37,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 38,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 39,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 40,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 41,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 42,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 43,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 44,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 45,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 46,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 47,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 48,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 49,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 50,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 51,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 52,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 53,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 54,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 55,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 56,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 57,
+        "Attribute": "COLORRGB5"
+      }
+    ]
+  },
+  {
+    "Name": "Elation - KL Panel XL (58Ch Extended Cells)",
+    "Channels": [
+      {
+        "Number": 1,
+        "Attribute": "SHUTTER"
+      },
+      {
+        "Number": 2,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 3,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 4,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 5,
+        "Attribute": "COLORMIXER"
+      },
+      {
+        "Number": 6,
+        "Attribute": "DIMMERCURVEMODE"
+      },
+      {
+        "Number": 7,
+        "Attribute": "FIXTUREGLOBALRESET"
+      },
+      {
+        "Number": 8,
+        "Attribute": "EFFECTMACROS"
+      },
+      {
+        "Number": 9,
+        "Attribute": "EFFECTMACRORATE"
+      },
+      {
+        "Number": 10,
+        "Attribute": "EFFECTMACROSYNCRONISATION"
+      },
+      {
+        "Number": 11,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 12,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 13,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 14,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 15,
+        "Attribute": "COLORRGB19"
+      },
+      {
+        "Number": 17,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 18,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 19,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 20,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 21,
+        "Attribute": "COLORRGB19"
+      },
+      {
+        "Number": 23,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 24,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 25,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 26,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 27,
+        "Attribute": "COLORRGB19"
+      },
+      {
+        "Number": 29,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 30,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 31,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 32,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 33,
+        "Attribute": "COLORRGB19"
+      },
+      {
+        "Number": 35,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 36,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 37,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 38,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 39,
+        "Attribute": "COLORRGB19"
+      },
+      {
+        "Number": 41,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 42,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 43,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 44,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 45,
+        "Attribute": "COLORRGB19"
+      },
+      {
+        "Number": 47,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 48,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 49,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 50,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 51,
+        "Attribute": "COLORRGB19"
+      },
+      {
+        "Number": 53,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 54,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 55,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 56,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 57,
+        "Attribute": "COLORRGB19"
+      }
+    ]
+  },
+  {
+    "Name": "Clay Paky - Aleda B-EYE K10 (RGB)",
+    "Channels": [
+      {
+        "Number": 1,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 2,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 3,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 4,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 5,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 6,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 7,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 8,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 9,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 10,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 11,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 12,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 13,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 14,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 15,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 16,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 17,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 18,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 19,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 20,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 21,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 22,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 23,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 24,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 25,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 26,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 27,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 28,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 29,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 30,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 31,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 32,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 33,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 34,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 35,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 36,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 37,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 38,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 39,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 40,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 41,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 42,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 43,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 44,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 45,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 46,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 47,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 48,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 49,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 50,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 51,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 52,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 53,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 54,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 55,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 56,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 57,
+        "Attribute": "COLORRGB3"
+      }
+    ]
+  },
+  {
+    "Name": "Quasar Science - Double Rainbow RR100 (Profile 12: CCT + RGB + FX 16 Bit - 6 Pixel)",
+    "Channels": [
+      {
+        "Number": 1,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 2,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 3,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 4,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 5,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 6,
+        "Attribute": "COLORCROSSFADE (fine)"
+      },
+      {
+        "Number": 7,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 8,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 9,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 10,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 11,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 12,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 13,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 14,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 15,
+        "Attribute": "COLORCROSSFADE (fine)"
+      },
+      {
+        "Number": 16,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 17,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 18,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 19,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 20,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 21,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 22,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 23,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 24,
+        "Attribute": "COLORCROSSFADE (fine)"
+      },
+      {
+        "Number": 25,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 26,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 27,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 28,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 29,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 30,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 31,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 32,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 33,
+        "Attribute": "COLORCROSSFADE (fine)"
+      },
+      {
+        "Number": 34,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 35,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 36,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 37,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 38,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 39,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 40,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 41,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 42,
+        "Attribute": "COLORCROSSFADE (fine)"
+      },
+      {
+        "Number": 43,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 44,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 45,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 46,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 47,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 48,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 49,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 50,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 51,
+        "Attribute": "COLORCROSSFADE (fine)"
+      },
+      {
+        "Number": 52,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 53,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 54,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 55,
+        "Attribute": "COLORMIXER"
+      },
+      {
+        "Number": 56,
+        "Attribute": "COLORMIXMACRORATE"
+      },
+      {
+        "Number": 57,
+        "Attribute": "COLOURMIXMACROPARAMETER"
+      }
+    ]
+  },
+  {
+    "Name": "Quasar Science - Rainbow 2 Q100R2 (Profile 12: CCT + RGB + FX 16 Bit - 6 Pixel)",
+    "Channels": [
+      {
+        "Number": 1,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 2,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 3,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 4,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 5,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 6,
+        "Attribute": "COLORCROSSFADE (fine)"
+      },
+      {
+        "Number": 7,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 8,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 9,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 10,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 11,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 12,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 13,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 14,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 15,
+        "Attribute": "COLORCROSSFADE (fine)"
+      },
+      {
+        "Number": 16,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 17,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 18,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 19,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 20,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 21,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 22,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 23,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 24,
+        "Attribute": "COLORCROSSFADE (fine)"
+      },
+      {
+        "Number": 25,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 26,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 27,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 28,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 29,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 30,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 31,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 32,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 33,
+        "Attribute": "COLORCROSSFADE (fine)"
+      },
+      {
+        "Number": 34,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 35,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 36,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 37,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 38,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 39,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 40,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 41,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 42,
+        "Attribute": "COLORCROSSFADE (fine)"
+      },
+      {
+        "Number": 43,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 44,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 45,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 46,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 47,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 48,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 49,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 50,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 51,
+        "Attribute": "COLORCROSSFADE (fine)"
+      },
+      {
+        "Number": 52,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 53,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 54,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 55,
+        "Attribute": "COLORMIXER"
+      },
+      {
+        "Number": 56,
+        "Attribute": "COLORMIXMACRORATE"
+      },
+      {
+        "Number": 57,
+        "Attribute": "COLOURMIXMACROPARAMETER"
+      }
+    ]
+  },
+  {
+    "Name": "Elation - Protron Eclypse (12A)",
+    "Channels": [
+      {
+        "Number": 1,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 2,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 3,
+        "Attribute": "SHUTTER"
+      },
+      {
+        "Number": 4,
+        "Attribute": "STROBEDURATION"
+      },
+      {
+        "Number": 5,
+        "Attribute": "STROBEMODE"
+      },
+      {
+        "Number": 6,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 7,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 8,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 9,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 10,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 11,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 12,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 13,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 14,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 15,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 16,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 17,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 18,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 19,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 20,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 21,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 22,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 23,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 24,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 25,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 26,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 27,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 28,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 29,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 30,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 31,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 32,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 33,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 34,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 35,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 36,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 37,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 38,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 39,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 40,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 41,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 42,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 43,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 44,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 45,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 46,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 47,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 48,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 49,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 50,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 51,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 52,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 53,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 54,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 55,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 56,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 57,
+        "Attribute": "COLORRGB5"
+      }
+    ]
+  },
+  {
+    "Name": "Elation - Fuze Teatro (CMY Extended)",
+    "Channels": [
+      {
+        "Number": 1,
+        "Attribute": "PAN"
+      },
+      {
+        "Number": 2,
+        "Attribute": "PAN (fine)"
+      },
+      {
+        "Number": 3,
+        "Attribute": "TILT"
+      },
+      {
+        "Number": 4,
+        "Attribute": "TILT (fine)"
+      },
+      {
+        "Number": 5,
+        "Attribute": "COLORRGB12"
+      },
+      {
+        "Number": 6,
+        "Attribute": "COLORRGB12 (fine)"
+      },
+      {
+        "Number": 7,
+        "Attribute": "COLORRGB13"
+      },
+      {
+        "Number": 8,
+        "Attribute": "COLORRGB13 (fine)"
+      },
+      {
+        "Number": 9,
+        "Attribute": "COLORRGB14"
+      },
+      {
+        "Number": 10,
+        "Attribute": "COLORRGB14 (fine)"
+      },
+      {
+        "Number": 11,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 12,
+        "Attribute": "COLORTEMPERATURE (fine)"
+      },
+      {
+        "Number": 13,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 14,
+        "Attribute": "COLORMIXER"
+      },
+      {
+        "Number": 15,
+        "Attribute": "GOBO1"
+      },
+      {
+        "Number": 16,
+        "Attribute": "GOBO1_POS"
+      },
+      {
+        "Number": 17,
+        "Attribute": "GOBO1_POS (fine)"
+      },
+      {
+        "Number": 18,
+        "Attribute": "GOBO2"
+      },
+      {
+        "Number": 19,
+        "Attribute": "GOBO2_POS"
+      },
+      {
+        "Number": 20,
+        "Attribute": "GOBO2_POS (fine)"
+      },
+      {
+        "Number": 21,
+        "Attribute": "EFFECTWHEEL"
+      },
+      {
+        "Number": 22,
+        "Attribute": "EFFECTINDEXROTATE"
+      },
+      {
+        "Number": 23,
+        "Attribute": "EFFECTINDEXROTATE (fine)"
+      },
+      {
+        "Number": 24,
+        "Attribute": "FOCUS"
+      },
+      {
+        "Number": 25,
+        "Attribute": "FOCUS (fine)"
+      },
+      {
+        "Number": 26,
+        "Attribute": "ZOOM"
+      },
+      {
+        "Number": 27,
+        "Attribute": "ZOOM (fine)"
+      },
+      {
+        "Number": 28,
+        "Attribute": "SHUTTER"
+      },
+      {
+        "Number": 29,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 30,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 31,
+        "Attribute": "INTENSITYMSPEED"
+      },
+      {
+        "Number": 32,
+        "Attribute": "IRIS"
+      },
+      {
+        "Number": 33,
+        "Attribute": "IRIS (fine)"
+      },
+      {
+        "Number": 34,
+        "Attribute": "LIGHTFROST"
+      },
+      {
+        "Number": 35,
+        "Attribute": "HEAVYFROST"
+      },
+      {
+        "Number": 36,
+        "Attribute": "ANIMATIONWHEEL"
+      },
+      {
+        "Number": 37,
+        "Attribute": "ANIMATIONINDEXROTATE"
+      },
+      {
+        "Number": 38,
+        "Attribute": "BLADE1A"
+      },
+      {
+        "Number": 39,
+        "Attribute": "BLADE1A (fine)"
+      },
+      {
+        "Number": 40,
+        "Attribute": "BLADE1B"
+      },
+      {
+        "Number": 41,
+        "Attribute": "BLADE1B (fine)"
+      },
+      {
+        "Number": 42,
+        "Attribute": "BLADE2A"
+      },
+      {
+        "Number": 43,
+        "Attribute": "BLADE2A (fine)"
+      },
+      {
+        "Number": 44,
+        "Attribute": "BLADE2B"
+      },
+      {
+        "Number": 45,
+        "Attribute": "BLADE2B (fine)"
+      },
+      {
+        "Number": 46,
+        "Attribute": "BLADE3A"
+      },
+      {
+        "Number": 47,
+        "Attribute": "BLADE3A (fine)"
+      },
+      {
+        "Number": 48,
+        "Attribute": "BLADE3B"
+      },
+      {
+        "Number": 49,
+        "Attribute": "BLADE3B (fine)"
+      },
+      {
+        "Number": 50,
+        "Attribute": "BLADE4A"
+      },
+      {
+        "Number": 51,
+        "Attribute": "BLADE4A (fine)"
+      },
+      {
+        "Number": 52,
+        "Attribute": "BLADE4B"
+      },
+      {
+        "Number": 53,
+        "Attribute": "BLADE4B (fine)"
+      },
+      {
+        "Number": 54,
+        "Attribute": "SHAPER ROT"
+      },
+      {
+        "Number": 55,
+        "Attribute": "SHAPER ROT (fine)"
+      },
+      {
+        "Number": 56,
+        "Attribute": "POSITIONMSPEED"
+      },
+      {
+        "Number": 57,
+        "Attribute": "FIXTUREGLOBALRESET"
+      }
+    ]
+  },
+  {
+    "Name": "Elation - Protron Eclypse (12)",
+    "Channels": [
+      {
+        "Number": 1,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 2,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 3,
+        "Attribute": "SHUTTER"
+      },
+      {
+        "Number": 4,
+        "Attribute": "STROBEDURATION"
+      },
+      {
+        "Number": 5,
+        "Attribute": "STROBEMODE"
+      },
+      {
+        "Number": 6,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 7,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 8,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 9,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 10,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 11,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 12,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 13,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 14,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 15,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 16,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 17,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 18,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 19,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 20,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 21,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 22,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 23,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 24,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 25,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 26,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 27,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 28,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 29,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 30,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 31,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 32,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 33,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 34,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 35,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 36,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 37,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 38,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 39,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 40,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 41,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 42,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 43,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 44,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 45,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 46,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 47,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 48,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 49,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 50,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 51,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 52,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 53,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 54,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 55,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 56,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 57,
+        "Attribute": "COLORRGB5"
+      }
+    ]
+  },
+  {
+    "Name": "American DJ - Hydro Profile (Extended 57)",
+    "Channels": [
+      {
+        "Number": 1,
+        "Attribute": "PAN"
+      },
+      {
+        "Number": 2,
+        "Attribute": "PAN (fine)"
+      },
+      {
+        "Number": 3,
+        "Attribute": "TILT"
+      },
+      {
+        "Number": 4,
+        "Attribute": "TILT (fine)"
+      },
+      {
+        "Number": 5,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 6,
+        "Attribute": "COLORRGB1 (fine)"
+      },
+      {
+        "Number": 7,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 8,
+        "Attribute": "COLORRGB2 (fine)"
+      },
+      {
+        "Number": 9,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 10,
+        "Attribute": "COLORRGB3 (fine)"
+      },
+      {
+        "Number": 11,
+        "Attribute": "CTO"
+      },
+      {
+        "Number": 12,
+        "Attribute": "CTO (fine)"
+      },
+      {
+        "Number": 13,
+        "Attribute": "COLORMIXER"
+      },
+      {
+        "Number": 14,
+        "Attribute": "COLOR1"
+      },
+      {
+        "Number": 15,
+        "Attribute": "COLORMIXER2"
+      },
+      {
+        "Number": 16,
+        "Attribute": "GOBO1"
+      },
+      {
+        "Number": 17,
+        "Attribute": "GOBO1_POS"
+      },
+      {
+        "Number": 18,
+        "Attribute": "GOBO1_POS (fine)"
+      },
+      {
+        "Number": 19,
+        "Attribute": "GOBO2"
+      },
+      {
+        "Number": 20,
+        "Attribute": "SHUTTER"
+      },
+      {
+        "Number": 21,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 22,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 23,
+        "Attribute": "EFFECTWHEEL"
+      },
+      {
+        "Number": 24,
+        "Attribute": "EFFECTINDEXROTATE"
+      },
+      {
+        "Number": 25,
+        "Attribute": "FOCUS"
+      },
+      {
+        "Number": 26,
+        "Attribute": "FOCUS (fine)"
+      },
+      {
+        "Number": 27,
+        "Attribute": "ZOOM"
+      },
+      {
+        "Number": 28,
+        "Attribute": "ZOOM (fine)"
+      },
+      {
+        "Number": 29,
+        "Attribute": "IRIS"
+      },
+      {
+        "Number": 30,
+        "Attribute": "MEDIUMFROST"
+      },
+      {
+        "Number": 31,
+        "Attribute": "HEAVYFROST"
+      },
+      {
+        "Number": 32,
+        "Attribute": "ANIMATIONWHEEL"
+      },
+      {
+        "Number": 33,
+        "Attribute": "BLADE1A"
+      },
+      {
+        "Number": 34,
+        "Attribute": "BLADE1A (fine)"
+      },
+      {
+        "Number": 35,
+        "Attribute": "BLADE1B"
+      },
+      {
+        "Number": 36,
+        "Attribute": "BLADE1B (fine)"
+      },
+      {
+        "Number": 37,
+        "Attribute": "BLADE2A"
+      },
+      {
+        "Number": 38,
+        "Attribute": "BLADE2A (fine)"
+      },
+      {
+        "Number": 39,
+        "Attribute": "BLADE2B"
+      },
+      {
+        "Number": 40,
+        "Attribute": "BLADE2B (fine)"
+      },
+      {
+        "Number": 41,
+        "Attribute": "BLADE3A"
+      },
+      {
+        "Number": 42,
+        "Attribute": "BLADE3A (fine)"
+      },
+      {
+        "Number": 43,
+        "Attribute": "BLADE3B"
+      },
+      {
+        "Number": 44,
+        "Attribute": "BLADE3B (fine)"
+      },
+      {
+        "Number": 45,
+        "Attribute": "BLADE4A"
+      },
+      {
+        "Number": 46,
+        "Attribute": "BLADE4A (fine)"
+      },
+      {
+        "Number": 47,
+        "Attribute": "BLADE4B"
+      },
+      {
+        "Number": 48,
+        "Attribute": "BLADE4B (fine)"
+      },
+      {
+        "Number": 49,
+        "Attribute": "SHAPER ROT"
+      },
+      {
+        "Number": 50,
+        "Attribute": "SHAPER ROT (fine)"
+      },
+      {
+        "Number": 51,
+        "Attribute": "FRAMEMSPEED"
+      },
+      {
+        "Number": 52,
+        "Attribute": "FRAMEMACROS"
+      },
+      {
+        "Number": 53,
+        "Attribute": "INTENSITYMSPEED"
+      },
+      {
+        "Number": 54,
+        "Attribute": "DIMMERCURVE"
+      },
+      {
+        "Number": 55,
+        "Attribute": "COLORMIXMSPEED"
+      },
+      {
+        "Number": 56,
+        "Attribute": "POSITIONMSPEED"
+      },
+      {
+        "Number": 57,
+        "Attribute": "FIXTUREGLOBALRESET"
+      }
+    ]
+  },
+  {
+    "Name": "Quasar Science - Rainbow 2 Q50R2 (Profile 12: CCT + RGB + FX 16 Bit - 6 Pixel)",
+    "Channels": [
+      {
+        "Number": 1,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 2,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 3,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 4,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 5,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 6,
+        "Attribute": "COLORCROSSFADE (fine)"
+      },
+      {
+        "Number": 7,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 8,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 9,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 10,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 11,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 12,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 13,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 14,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 15,
+        "Attribute": "COLORCROSSFADE (fine)"
+      },
+      {
+        "Number": 16,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 17,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 18,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 19,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 20,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 21,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 22,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 23,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 24,
+        "Attribute": "COLORCROSSFADE (fine)"
+      },
+      {
+        "Number": 25,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 26,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 27,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 28,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 29,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 30,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 31,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 32,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 33,
+        "Attribute": "COLORCROSSFADE (fine)"
+      },
+      {
+        "Number": 34,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 35,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 36,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 37,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 38,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 39,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 40,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 41,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 42,
+        "Attribute": "COLORCROSSFADE (fine)"
+      },
+      {
+        "Number": 43,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 44,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 45,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 46,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 47,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 48,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 49,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 50,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 51,
+        "Attribute": "COLORCROSSFADE (fine)"
+      },
+      {
+        "Number": 52,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 53,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 54,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 55,
+        "Attribute": "COLORMIXER"
+      },
+      {
+        "Number": 56,
+        "Attribute": "COLORMIXMACRORATE"
+      },
+      {
+        "Number": 57,
+        "Attribute": "COLOURMIXMACROPARAMETER"
+      }
+    ]
+  },
+  {
+    "Name": "Elation - Protron Eclypse (F12)",
+    "Channels": [
+      {
+        "Number": 1,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 2,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 3,
+        "Attribute": "SHUTTER"
+      },
+      {
+        "Number": 4,
+        "Attribute": "STROBEDURATION"
+      },
+      {
+        "Number": 5,
+        "Attribute": "STROBEMODE"
+      },
+      {
+        "Number": 6,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 7,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 8,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 9,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 10,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 11,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 12,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 13,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 14,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 15,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 16,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 17,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 18,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 19,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 20,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 21,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 22,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 23,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 24,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 25,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 26,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 27,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 28,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 29,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 30,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 31,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 32,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 33,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 34,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 35,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 36,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 37,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 38,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 39,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 40,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 41,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 42,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 43,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 44,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 45,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 46,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 47,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 48,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 49,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 50,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 51,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 52,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 53,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 54,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 55,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 56,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 57,
+        "Attribute": "COLORRGB5"
+      }
+    ]
+  },
+  {
+    "Name": "American DJ - 32 Hex Panel IP (57 channel)",
+    "Channels": [
+      {
+        "Number": 1,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 2,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 3,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 4,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 5,
+        "Attribute": "COLORRGB4"
+      },
+      {
+        "Number": 6,
+        "Attribute": "COLORRGB15"
+      },
+      {
+        "Number": 7,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 8,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 9,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 10,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 11,
+        "Attribute": "COLORRGB4"
+      },
+      {
+        "Number": 12,
+        "Attribute": "COLORRGB15"
+      },
+      {
+        "Number": 13,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 14,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 15,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 16,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 17,
+        "Attribute": "COLORRGB4"
+      },
+      {
+        "Number": 18,
+        "Attribute": "COLORRGB15"
+      },
+      {
+        "Number": 19,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 20,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 21,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 22,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 23,
+        "Attribute": "COLORRGB4"
+      },
+      {
+        "Number": 24,
+        "Attribute": "COLORRGB15"
+      },
+      {
+        "Number": 25,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 26,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 27,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 28,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 29,
+        "Attribute": "COLORRGB4"
+      },
+      {
+        "Number": 30,
+        "Attribute": "COLORRGB15"
+      },
+      {
+        "Number": 31,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 32,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 33,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 34,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 35,
+        "Attribute": "COLORRGB4"
+      },
+      {
+        "Number": 36,
+        "Attribute": "COLORRGB15"
+      },
+      {
+        "Number": 37,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 38,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 39,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 40,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 41,
+        "Attribute": "COLORRGB4"
+      },
+      {
+        "Number": 42,
+        "Attribute": "COLORRGB15"
+      },
+      {
+        "Number": 43,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 44,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 45,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 46,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 47,
+        "Attribute": "COLORRGB4"
+      },
+      {
+        "Number": 48,
+        "Attribute": "COLORRGB15"
+      },
+      {
+        "Number": 49,
+        "Attribute": "SHUTTER"
+      },
+      {
+        "Number": 50,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 51,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 52,
+        "Attribute": "COLORMIXER"
+      },
+      {
+        "Number": 53,
+        "Attribute": "COLORMIXMACRORATE"
+      },
+      {
+        "Number": 54,
+        "Attribute": "COLORMIXMACROFADETIME"
+      },
+      {
+        "Number": 55,
+        "Attribute": "DIMMERCURVE"
+      },
+      {
+        "Number": 56,
+        "Attribute": "PWMFREQUENCY"
+      },
+      {
+        "Number": 57,
+        "Attribute": "MACROS"
+      }
+    ]
+  },
+  {
+    "Name": "Prolights - AstraWash7Pix (FX + Pixels)",
+    "Channels": [
+      {
+        "Number": 1,
+        "Attribute": "PAN"
+      },
+      {
+        "Number": 2,
+        "Attribute": "PAN (fine)"
+      },
+      {
+        "Number": 3,
+        "Attribute": "TILT"
+      },
+      {
+        "Number": 4,
+        "Attribute": "TILT (fine)"
+      },
+      {
+        "Number": 5,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 6,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 7,
+        "Attribute": "SHUTTER"
+      },
+      {
+        "Number": 8,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 9,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 10,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 11,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 12,
+        "Attribute": "COLORMIXER"
+      },
+      {
+        "Number": 13,
+        "Attribute": "ZOOM"
+      },
+      {
+        "Number": 14,
+        "Attribute": "CROSSFADER"
+      },
+      {
+        "Number": 15,
+        "Attribute": "CROSSFADER2"
+      },
+      {
+        "Number": 16,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 17,
+        "Attribute": "FIXTUREGLOBALRESET"
+      },
+      {
+        "Number": 18,
+        "Attribute": "PIXELMASK"
+      },
+      {
+        "Number": 19,
+        "Attribute": "PIXELMASKINDEXROTATE"
+      },
+      {
+        "Number": 20,
+        "Attribute": "PIXELMASKTRANSPARENCY"
+      },
+      {
+        "Number": 21,
+        "Attribute": "PIXELMASKCROSSFADETIME"
+      },
+      {
+        "Number": 22,
+        "Attribute": "DIM2"
+      },
+      {
+        "Number": 23,
+        "Attribute": "SHUTTER"
+      },
+      {
+        "Number": 24,
+        "Attribute": "DIM3"
+      },
+      {
+        "Number": 25,
+        "Attribute": "SHUTTER"
+      },
+      {
+        "Number": 26,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 27,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 28,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 29,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 30,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 31,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 32,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 33,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 34,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 35,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 36,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 37,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 38,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 39,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 40,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 41,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 42,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 43,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 44,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 45,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 46,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 47,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 48,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 49,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 50,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 51,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 52,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 53,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 54,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 55,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 56,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 57,
+        "Attribute": "COLORRGB5"
+      }
+    ]
+  },
+  {
+    "Name": "Terbly - V1200P-R (Extended)",
+    "Channels": [
+      {
+        "Number": 1,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 2,
+        "Attribute": "COLORRGB1 (fine)"
+      },
+      {
+        "Number": 3,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 4,
+        "Attribute": "COLORRGB2 (fine)"
+      },
+      {
+        "Number": 5,
+        "Attribute": "PAN"
+      },
+      {
+        "Number": 6,
+        "Attribute": "TILT"
+      },
+      {
+        "Number": 7,
+        "Attribute": "POSITIONMSPEED"
+      },
+      {
+        "Number": 8,
+        "Attribute": "POSITIONMSPEEDMODE"
+      },
+      {
+        "Number": 9,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 10,
+        "Attribute": "COLORRGB3 (fine)"
+      },
+      {
+        "Number": 11,
+        "Attribute": "CTO"
+      },
+      {
+        "Number": 12,
+        "Attribute": "CTO (fine)"
+      },
+      {
+        "Number": 13,
+        "Attribute": "COLOR1"
+      },
+      {
+        "Number": 14,
+        "Attribute": "COLOR1 (fine)"
+      },
+      {
+        "Number": 15,
+        "Attribute": "GOBO1"
+      },
+      {
+        "Number": 16,
+        "Attribute": "GOBO1_POS"
+      },
+      {
+        "Number": 17,
+        "Attribute": "GOBO1_POS (fine)"
+      },
+      {
+        "Number": 18,
+        "Attribute": "GOBO2"
+      },
+      {
+        "Number": 19,
+        "Attribute": "GOBO2_POS"
+      },
+      {
+        "Number": 20,
+        "Attribute": "EFFECTWHEEL"
+      },
+      {
+        "Number": 21,
+        "Attribute": "EFFECTINDEXROTATE"
+      },
+      {
+        "Number": 22,
+        "Attribute": "EFFECTINDEXROTATE (fine)"
+      },
+      {
+        "Number": 23,
+        "Attribute": "FOCUS"
+      },
+      {
+        "Number": 24,
+        "Attribute": "FOCUS (fine)"
+      },
+      {
+        "Number": 25,
+        "Attribute": "ZOOM"
+      },
+      {
+        "Number": 26,
+        "Attribute": "ZOOM (fine)"
+      },
+      {
+        "Number": 27,
+        "Attribute": "SHUTTER"
+      },
+      {
+        "Number": 28,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 29,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 30,
+        "Attribute": "IRIS"
+      },
+      {
+        "Number": 31,
+        "Attribute": "IRIS (fine)"
+      },
+      {
+        "Number": 32,
+        "Attribute": "FROST"
+      },
+      {
+        "Number": 33,
+        "Attribute": "COLORMIXMSPEED"
+      },
+      {
+        "Number": 34,
+        "Attribute": "COLORMACROS"
+      },
+      {
+        "Number": 35,
+        "Attribute": "BLADE1A"
+      },
+      {
+        "Number": 36,
+        "Attribute": "BLADE1A (fine)"
+      },
+      {
+        "Number": 37,
+        "Attribute": "BLADE1B"
+      },
+      {
+        "Number": 38,
+        "Attribute": "BLADE1B (fine)"
+      },
+      {
+        "Number": 39,
+        "Attribute": "BLADE3A"
+      },
+      {
+        "Number": 40,
+        "Attribute": "BLADE3A (fine)"
+      },
+      {
+        "Number": 41,
+        "Attribute": "BLADE3B"
+      },
+      {
+        "Number": 42,
+        "Attribute": "BLADE3B (fine)"
+      },
+      {
+        "Number": 43,
+        "Attribute": "BLADE2A"
+      },
+      {
+        "Number": 44,
+        "Attribute": "BLADE2A (fine)"
+      },
+      {
+        "Number": 45,
+        "Attribute": "BLADE2B"
+      },
+      {
+        "Number": 46,
+        "Attribute": "BLADE2B (fine)"
+      },
+      {
+        "Number": 47,
+        "Attribute": "BLADE4A"
+      },
+      {
+        "Number": 48,
+        "Attribute": "BLADE4A (fine)"
+      },
+      {
+        "Number": 49,
+        "Attribute": "BLADE4B"
+      },
+      {
+        "Number": 50,
+        "Attribute": "BLADE4B (fine)"
+      },
+      {
+        "Number": 51,
+        "Attribute": "SHAPER ROT"
+      },
+      {
+        "Number": 52,
+        "Attribute": "SHAPER ROT (fine)"
+      },
+      {
+        "Number": 53,
+        "Attribute": "FRAMEMSPEED"
+      },
+      {
+        "Number": 54,
+        "Attribute": "FRAMEMACROS"
+      },
+      {
+        "Number": 55,
+        "Attribute": "LAMPCONTROL"
+      },
+      {
+        "Number": 56,
+        "Attribute": "PAN (fine)"
+      },
+      {
+        "Number": 57,
+        "Attribute": "TILT (fine)"
+      }
+    ]
+  },
+  {
+    "Name": "Astera LED Technology - Hyperion Tube (103: D CCT GM CRO RGB S - 8 Pixels - Strobe Single)",
+    "Channels": [
+      {
+        "Number": 1,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 2,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 3,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 4,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 5,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 6,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 7,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 8,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 9,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 10,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 11,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 12,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 13,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 14,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 15,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 16,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 17,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 18,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 19,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 20,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 21,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 22,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 23,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 24,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 25,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 26,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 27,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 28,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 29,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 30,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 31,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 32,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 33,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 34,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 35,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 36,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 37,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 38,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 39,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 40,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 41,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 42,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 43,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 44,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 45,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 46,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 47,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 48,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 49,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 50,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 51,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 52,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 53,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 54,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 55,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 56,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 57,
+        "Attribute": "SHUTTER"
+      }
+    ]
+  },
+  {
+    "Name": "High End Systems - DLHD (v1.0.2 Global Control)",
+    "Channels": [
+      {
+        "Number": 1,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 2,
+        "Attribute": "EFFECT"
+      },
+      {
+        "Number": 3,
+        "Attribute": "EFFECTPARAMETER"
+      },
+      {
+        "Number": 4,
+        "Attribute": "EFFECTPARAMETER2"
+      },
+      {
+        "Number": 5,
+        "Attribute": "EFFECTPARAMETER3"
+      },
+      {
+        "Number": 6,
+        "Attribute": "EFFECT"
+      },
+      {
+        "Number": 7,
+        "Attribute": "EFFECTPARAMETER4"
+      },
+      {
+        "Number": 8,
+        "Attribute": "EFFECTPARAMETER5"
+      },
+      {
+        "Number": 9,
+        "Attribute": "EFFECTPARAMETER6"
+      },
+      {
+        "Number": 10,
+        "Attribute": "EFFECT"
+      },
+      {
+        "Number": 11,
+        "Attribute": "EFFECTPARAMETER7"
+      },
+      {
+        "Number": 12,
+        "Attribute": "EFFECTPARAMETER8"
+      },
+      {
+        "Number": 13,
+        "Attribute": "EFFECTPARAMETER9"
+      },
+      {
+        "Number": 14,
+        "Attribute": "EFFECT"
+      },
+      {
+        "Number": 15,
+        "Attribute": "EFFECTPARAMETER10"
+      },
+      {
+        "Number": 16,
+        "Attribute": "EFFECTPARAMETER11"
+      },
+      {
+        "Number": 17,
+        "Attribute": "EFFECTPARAMETER12"
+      },
+      {
+        "Number": 18,
+        "Attribute": "SYNCSOURCE"
+      },
+      {
+        "Number": 19,
+        "Attribute": "COLLAGETYPE"
+      },
+      {
+        "Number": 20,
+        "Attribute": "COLLAGEARRAYCONFIGURATION"
+      },
+      {
+        "Number": 21,
+        "Attribute": "COLLAGECELL"
+      },
+      {
+        "Number": 22,
+        "Attribute": "COLLAGEBLEND"
+      },
+      {
+        "Number": 23,
+        "Attribute": "ALIGNMENTPATTERN"
+      },
+      {
+        "Number": 24,
+        "Attribute": "EDGEBLENDHORIZONTAL"
+      },
+      {
+        "Number": 25,
+        "Attribute": "EDGEBLENDHORIZONTAL (fine)"
+      },
+      {
+        "Number": 26,
+        "Attribute": "EDGEBLENDVERTICAL"
+      },
+      {
+        "Number": 27,
+        "Attribute": "EDGEBLENDVERTICAL (fine)"
+      },
+      {
+        "Number": 28,
+        "Attribute": "MASK"
+      },
+      {
+        "Number": 29,
+        "Attribute": "MASKSIZE"
+      },
+      {
+        "Number": 30,
+        "Attribute": "MASKEDGE"
+      },
+      {
+        "Number": 31,
+        "Attribute": "KEYSTONEA"
+      },
+      {
+        "Number": 32,
+        "Attribute": "KEYSTONEB"
+      },
+      {
+        "Number": 33,
+        "Attribute": "KEYSTONEA2"
+      },
+      {
+        "Number": 34,
+        "Attribute": "KEYSTONEB2"
+      },
+      {
+        "Number": 35,
+        "Attribute": "KEYSTONEA3"
+      },
+      {
+        "Number": 36,
+        "Attribute": "KEYSTONEB3"
+      },
+      {
+        "Number": 37,
+        "Attribute": "KEYSTONEA4"
+      },
+      {
+        "Number": 38,
+        "Attribute": "KEYSTONEB4"
+      },
+      {
+        "Number": 39,
+        "Attribute": "KEYSTONEXRATIO"
+      },
+      {
+        "Number": 40,
+        "Attribute": "KEYSTONEYRATIO"
+      },
+      {
+        "Number": 41,
+        "Attribute": "FRAMINGX"
+      },
+      {
+        "Number": 42,
+        "Attribute": "FRAMINGY"
+      },
+      {
+        "Number": 43,
+        "Attribute": "FRAMINGX2"
+      },
+      {
+        "Number": 44,
+        "Attribute": "FRAMINGY2"
+      },
+      {
+        "Number": 45,
+        "Attribute": "FRAMINGX3"
+      },
+      {
+        "Number": 46,
+        "Attribute": "FRAMINGY3"
+      },
+      {
+        "Number": 47,
+        "Attribute": "FRAMINGX4"
+      },
+      {
+        "Number": 48,
+        "Attribute": "FRAMINGY4"
+      },
+      {
+        "Number": 49,
+        "Attribute": "IMAGEEDGE"
+      },
+      {
+        "Number": 50,
+        "Attribute": "IMAGEEDGE3"
+      },
+      {
+        "Number": 51,
+        "Attribute": "IMAGEEDGE2"
+      },
+      {
+        "Number": 52,
+        "Attribute": "IMAGEEDGE4"
+      },
+      {
+        "Number": 53,
+        "Attribute": "WARP"
+      },
+      {
+        "Number": 54,
+        "Attribute": "DUMMY"
+      },
+      {
+        "Number": 55,
+        "Attribute": "DUMMY"
+      },
+      {
+        "Number": 56,
+        "Attribute": "MACROS"
+      },
+      {
+        "Number": 57,
+        "Attribute": "MACROS2"
+      }
+    ]
+  },
+  {
+    "Name": "Chauvet - Nexus Aw 7x7 (57 channel)",
+    "Channels": [
+      {
+        "Number": 1,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 2,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 3,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 4,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 5,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 6,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 7,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 8,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 9,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 10,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 11,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 12,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 13,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 14,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 15,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 16,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 17,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 18,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 19,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 20,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 21,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 22,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 23,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 24,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 25,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 26,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 27,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 28,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 29,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 30,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 31,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 32,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 33,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 34,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 35,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 36,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 37,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 38,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 39,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 40,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 41,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 42,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 43,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 44,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 45,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 46,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 47,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 48,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 49,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 50,
+        "Attribute": "FOREGROUNDINTENSITY"
+      },
+      {
+        "Number": 51,
+        "Attribute": "BACKGROUNDINTENSITY"
+      },
+      {
+        "Number": 52,
+        "Attribute": "CLIPSELECT"
+      },
+      {
+        "Number": 53,
+        "Attribute": "EFFECTMACROS"
+      },
+      {
+        "Number": 54,
+        "Attribute": "ROTATEX"
+      },
+      {
+        "Number": 55,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 56,
+        "Attribute": "SHUTTER"
+      },
+      {
+        "Number": 57,
+        "Attribute": "DIMMERCURVE"
+      }
+    ]
+  },
+  {
+    "Name": "Chauvet - COLORado Solo Bar 6 (6 Cell - RGBWL Ext. 57ch)",
+    "Channels": [
+      {
+        "Number": 1,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 2,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 3,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 4,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 5,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 6,
+        "Attribute": "COLORRGB19"
+      },
+      {
+        "Number": 7,
+        "Attribute": "COLORMIXER"
+      },
+      {
+        "Number": 8,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 9,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 10,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 11,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 12,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 13,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 14,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 15,
+        "Attribute": "COLORRGB19"
+      },
+      {
+        "Number": 16,
+        "Attribute": "COLORMIXER"
+      },
+      {
+        "Number": 17,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 18,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 19,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 20,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 21,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 22,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 23,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 24,
+        "Attribute": "COLORRGB19"
+      },
+      {
+        "Number": 25,
+        "Attribute": "COLORMIXER"
+      },
+      {
+        "Number": 26,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 27,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 28,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 29,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 30,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 31,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 32,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 33,
+        "Attribute": "COLORRGB19"
+      },
+      {
+        "Number": 34,
+        "Attribute": "COLORMIXER"
+      },
+      {
+        "Number": 35,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 36,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 37,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 38,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 39,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 40,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 41,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 42,
+        "Attribute": "COLORRGB19"
+      },
+      {
+        "Number": 43,
+        "Attribute": "COLORMIXER"
+      },
+      {
+        "Number": 44,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 45,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 46,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 47,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 48,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 49,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 50,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 51,
+        "Attribute": "COLORRGB19"
+      },
+      {
+        "Number": 52,
+        "Attribute": "COLORMIXER"
+      },
+      {
+        "Number": 53,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 54,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 55,
+        "Attribute": "SHUTTER"
+      },
+      {
+        "Number": 56,
+        "Attribute": "COLORMIXER"
+      },
+      {
+        "Number": 57,
+        "Attribute": "FANS"
+      }
+    ]
+  },
+  {
+    "Name": "Prolights - AstraWash7PixIP (FX + Pixels)",
+    "Channels": [
+      {
+        "Number": 1,
+        "Attribute": "PAN"
+      },
+      {
+        "Number": 2,
+        "Attribute": "PAN (fine)"
+      },
+      {
+        "Number": 3,
+        "Attribute": "TILT"
+      },
+      {
+        "Number": 4,
+        "Attribute": "TILT (fine)"
+      },
+      {
+        "Number": 5,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 6,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 7,
+        "Attribute": "SHUTTER"
+      },
+      {
+        "Number": 8,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 9,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 10,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 11,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 12,
+        "Attribute": "COLORMIXER"
+      },
+      {
+        "Number": 13,
+        "Attribute": "ZOOM"
+      },
+      {
+        "Number": 14,
+        "Attribute": "CROSSFADER"
+      },
+      {
+        "Number": 15,
+        "Attribute": "CROSSFADER2"
+      },
+      {
+        "Number": 16,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 17,
+        "Attribute": "FIXTUREGLOBALRESET"
+      },
+      {
+        "Number": 18,
+        "Attribute": "PIXELMASK"
+      },
+      {
+        "Number": 19,
+        "Attribute": "PIXELMASKINDEXROTATE"
+      },
+      {
+        "Number": 20,
+        "Attribute": "PIXELMASKTRANSPARENCY"
+      },
+      {
+        "Number": 21,
+        "Attribute": "PIXELMASKCROSSFADETIME"
+      },
+      {
+        "Number": 22,
+        "Attribute": "DIM2"
+      },
+      {
+        "Number": 23,
+        "Attribute": "SHUTTER"
+      },
+      {
+        "Number": 24,
+        "Attribute": "DIM3"
+      },
+      {
+        "Number": 25,
+        "Attribute": "SHUTTER"
+      },
+      {
+        "Number": 26,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 27,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 28,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 29,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 30,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 31,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 32,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 33,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 34,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 35,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 36,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 37,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 38,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 39,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 40,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 41,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 42,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 43,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 44,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 45,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 46,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 47,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 48,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 49,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 50,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 51,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 52,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 53,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 54,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 55,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 56,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 57,
+        "Attribute": "COLORRGB5"
+      }
+    ]
+  },
+  {
+    "Name": "Portman - S-Tribe (Standard Fine)",
+    "Channels": [
+      {
+        "Number": 1,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 2,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 3,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 4,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 5,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 6,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 7,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 8,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 9,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 10,
+        "Attribute": "DIM (fine)"
+      },
+      {
+        "Number": 11,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 12,
+        "Attribute": "COLORRGB1 (fine)"
+      },
+      {
+        "Number": 13,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 14,
+        "Attribute": "COLORRGB2 (fine)"
+      },
+      {
+        "Number": 15,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 16,
+        "Attribute": "COLORRGB3 (fine)"
+      },
+      {
+        "Number": 17,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 18,
+        "Attribute": "COLORRGB5 (fine)"
+      },
+      {
+        "Number": 19,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 20,
+        "Attribute": "COLORRGB1 (fine)"
+      },
+      {
+        "Number": 21,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 22,
+        "Attribute": "COLORRGB2 (fine)"
+      },
+      {
+        "Number": 23,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 24,
+        "Attribute": "COLORRGB3 (fine)"
+      },
+      {
+        "Number": 25,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 26,
+        "Attribute": "COLORRGB5 (fine)"
+      },
+      {
+        "Number": 27,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 28,
+        "Attribute": "COLORRGB1 (fine)"
+      },
+      {
+        "Number": 29,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 30,
+        "Attribute": "COLORRGB2 (fine)"
+      },
+      {
+        "Number": 31,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 32,
+        "Attribute": "COLORRGB3 (fine)"
+      },
+      {
+        "Number": 33,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 34,
+        "Attribute": "COLORRGB5 (fine)"
+      },
+      {
+        "Number": 35,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 36,
+        "Attribute": "COLORRGB1 (fine)"
+      },
+      {
+        "Number": 37,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 38,
+        "Attribute": "COLORRGB2 (fine)"
+      },
+      {
+        "Number": 39,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 40,
+        "Attribute": "COLORRGB3 (fine)"
+      },
+      {
+        "Number": 41,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 42,
+        "Attribute": "COLORRGB5 (fine)"
+      },
+      {
+        "Number": 43,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 44,
+        "Attribute": "COLORRGB1 (fine)"
+      },
+      {
+        "Number": 45,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 46,
+        "Attribute": "COLORRGB2 (fine)"
+      },
+      {
+        "Number": 47,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 48,
+        "Attribute": "COLORRGB3 (fine)"
+      },
+      {
+        "Number": 49,
+        "Attribute": "COLORRGB5"
+      },
+      {
+        "Number": 50,
+        "Attribute": "COLORRGB5 (fine)"
+      },
+      {
+        "Number": 51,
+        "Attribute": "SHUTTER"
+      },
+      {
+        "Number": 52,
+        "Attribute": "SHUTTER"
+      },
+      {
+        "Number": 53,
+        "Attribute": "COLORMIXER"
+      },
+      {
+        "Number": 54,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 55,
+        "Attribute": "MACROS"
+      },
+      {
+        "Number": 56,
+        "Attribute": "MACRORATE"
+      },
+      {
+        "Number": 57,
+        "Attribute": "FIXTUREGLOBALRESET"
+      }
+    ]
+  },
+  {
+    "Name": "Quasar Science - Rainbow 2 Q50R2 (Profile 36: CCT RGB+O 8 Bit - 8 Pixel)",
+    "Channels": [
+      {
+        "Number": 1,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 2,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 3,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 4,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 5,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 6,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 7,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 8,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 9,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 10,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 11,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 12,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 13,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 14,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 15,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 16,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 17,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 18,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 19,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 20,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 21,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 22,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 23,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 24,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 25,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 26,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 27,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 28,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 29,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 30,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 31,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 32,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 33,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 34,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 35,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 36,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 37,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 38,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 39,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 40,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 41,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 42,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 43,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 44,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 45,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 46,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 47,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 48,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 49,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 50,
+        "Attribute": "DIM"
+      },
+      {
+        "Number": 51,
+        "Attribute": "COLORTEMPERATURE"
+      },
+      {
+        "Number": 52,
+        "Attribute": "TINT"
+      },
+      {
+        "Number": 53,
+        "Attribute": "COLORCROSSFADE"
+      },
+      {
+        "Number": 54,
+        "Attribute": "COLORRGB1"
+      },
+      {
+        "Number": 55,
+        "Attribute": "COLORRGB2"
+      },
+      {
+        "Number": 56,
+        "Attribute": "COLORRGB3"
+      },
+      {
+        "Number": 57,
+        "Attribute": "INTENSITYMODE"
+      }
+    ]
+  }
+]
