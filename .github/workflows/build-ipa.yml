@@ -39,7 +39,7 @@ jobs:
       - name: Generate native iOS project
         run: npx expo prebuild --platform ios --non-interactive
 
-      - name: Archive unsigned .app (xcarchive)
+      - name: Build unsigned .app
         run: |
           set -eo pipefail
           WS=$(find ios -maxdepth 1 -type d -name '*.xcworkspace' | head -1)
@@ -49,31 +49,31 @@ jobs:
             | awk '/Schemes:/{getline; gsub(/^[[:space:]]+/,"",$0); print; exit}')
           test -n "$SCHEME" || { echo "ERROR: scheme not found"; exit 1; }
           echo "scheme: $SCHEME"
-          # Архив — детерминированный путь к .app, не зависящий от структуры DerivedData
+          # Обычная сборка (archive с CODE_SIGNING_ALLOWED=NO в Xcode 26
+          # «успешно» завершается, но оставляет Products в архиве пустым).
           xcodebuild \
             -workspace "$WS" \
             -scheme "$SCHEME" \
             -configuration Release \
             -destination 'generic/platform=iOS' \
-            -archivePath "$RUNNER_TEMP/Kogitator.xcarchive" \
+            -derivedDataPath build \
             CODE_SIGNING_ALLOWED=NO \
-            -quiet \
-            archive
-          test -d "$RUNNER_TEMP/Kogitator.xcarchive" || { echo "ERROR: archive not created"; exit 1; }
-          echo "=== верхний уровень архива ==="
-          ls -la "$RUNNER_TEMP/Kogitator.xcarchive"
+            build
+          echo "=== верхний уровень build/ ==="
+          ls -la build
+          echo "=== собранные .app ==="
+          find build -type d -name '*.app' -print
 
       - name: Package unsigned .ipa
         run: |
           set -eo pipefail
-          ARCHIVE="$RUNNER_TEMP/Kogitator.xcarchive"
-          # Xcode 26 может менять структуру архива, поэтому ищем .app по ВСЕМУ архиву
-          APP=$(find "$ARCHIVE" -type d -name '*.app' 2>/dev/null | head -1)
+          # Ищем .app по ВСЕМУ дереву сборки — структура Xcode 26 может отличаться
+          # от классической build/Build/Products/Release-iphoneos
+          APP=$(find build "$HOME/Library/Developer/Xcode/DerivedData" -type d -name '*.app' 2>/dev/null | head -1)
           echo "app: $APP"
           if [ -z "$APP" ] || [ ! -d "$APP" ]; then
-            echo "ERROR: .app not found in archive. Полная структура архива:"
-            ls -la "$ARCHIVE"
-            find "$ARCHIVE" -print 2>/dev/null | head -60
+            echo "ERROR: .app not found. Полное дерево build/:"
+            find build -print 2>/dev/null | head -100
             exit 1
           fi
           mkdir -p ipa/Payload
