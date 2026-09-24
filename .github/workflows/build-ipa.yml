@@ -46,44 +46,31 @@ jobs:
           test -n "$WS" || { echo "ERROR: iOS workspace not found"; exit 1; }
           echo "workspace: $WS"
           echo "=== все схемы воркспейса ==="
-          xcodebuild -workspace "$WS" -list 2>/dev/null || true
-          SCHEME=$(xcodebuild -workspace "$WS" -list 2>/dev/null \
-            | awk '/Schemes:/{getline; gsub(/^[[:space:]]+/,"",$0); print; exit}')
+          xcodebuild -workspace "$WS" -list 2>/dev/null
+          # CocoaPods создаёт схему на каждый под (EXConstants, React-* и т.д.),
+          # НУЖНА основная схема приложения — Kogitator: сборка схемы пода
+          # «успешно» завершается, но не даёт .app вовсе.
+          SCHEMES=$(xcodebuild -workspace "$WS" -list 2>/dev/null \
+            | awk '/Schemes:/{on=1; next} /Targets:/{on=0} on && /[^[:space:]]/{gsub(/^[[:space:]]+/,"",$0); print}')
+          echo "schemes:"
+          echo "$SCHEMES"
+          if echo "$SCHEMES" | grep -qx 'Kogitator'; then
+            SCHEME="Kogitator"
+          else
+            SCHEME=$(echo "$SCHEMES" | head -1)
+          fi
           test -n "$SCHEME" || { echo "ERROR: scheme not found"; exit 1; }
           echo "scheme: $SCHEME"
-          echo "=== product-настройки (TARGET_BUILD_DIR/WRAPPER_NAME) ==="
-          xcodebuild -workspace "$WS" -scheme "$SCHEME" -configuration Release -destination 'generic/platform=iOS' -showBuildSettings 2>/dev/null \
-            | awk '/(TARGET_BUILD_DIR|WRAPPER_NAME|PRODUCT_NAME|FULL_PRODUCT_NAME|CODE_SIGN_IDENTITY) = /{print}' | sort -u
-          # CODE_SIGNING_ALLOWED=NO на Xcode 26 «успешно» завершает сборку,
-          # но НЕ создаёт .app вовсе. Поэтому подписываем ad-hoc (CODE_SIGN_IDENTITY=-):
-          # бандл собирается, а AltStore при установке переподпишет приложение
-          # сертификатом бесплатного Apple ID.
+          # Без подписи: ad-hoc на SDK iOS 26.5 запрещён (privacy/codegen-таргеты),
+          # поэтому CODE_SIGNING_ALLOWED=NO. Приложение переподпишет AltStore.
           xcodebuild \
             -workspace "$WS" \
             -scheme "$SCHEME" \
             -configuration Release \
             -destination 'generic/platform=iOS' \
             -derivedDataPath build \
-            CODE_SIGN_STYLE=Manual \
-            CODE_SIGN_IDENTITY=- \
-            CODE_SIGNING_REQUIRED=NO \
-            CODE_SIGNING_ALLOWED=YES \
+            CODE_SIGNING_ALLOWED=NO \
             build
-          # Если схема вдруг не включает app-таргет — собираем напрямую по таргету
-          if ! find build -type d -name '*.app' 2>/dev/null | grep -q .; then
-            echo "=== fallback: сборка по -target Kogitator ==="
-            xcodebuild \
-              -project ios/Kogitator.xcodeproj \
-              -target Kogitator \
-              -configuration Release \
-              -destination 'generic/platform=iOS' \
-              -derivedDataPath build \
-              CODE_SIGN_STYLE=Manual \
-              CODE_SIGN_IDENTITY=- \
-              CODE_SIGNING_REQUIRED=NO \
-              CODE_SIGNING_ALLOWED=YES \
-              build
-          fi
           echo "=== собранные .app ==="
           find build -type d -name '*.app' -print
 
