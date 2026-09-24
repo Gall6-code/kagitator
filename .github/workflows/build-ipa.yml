@@ -39,11 +39,9 @@ jobs:
       - name: Generate native iOS project
         run: npx expo prebuild --platform ios --non-interactive
 
-      - name: Build unsigned .app
+      - name: Archive unsigned .app (xcarchive)
         run: |
           set -eo pipefail
-          # ВАЖНО: ищем ПАПКУ-воркспейс (ls по папке выводит её содержимое:
-          # contents.xcworkspacedata — оттуда и была ошибка exit 66)
           WS=$(find ios -maxdepth 1 -type d -name '*.xcworkspace' | head -1)
           test -n "$WS" || { echo "ERROR: iOS workspace not found"; exit 1; }
           echo "workspace: $WS"
@@ -51,27 +49,28 @@ jobs:
             | awk '/Schemes:/{getline; gsub(/^[[:space:]]+/,"",$0); print; exit}')
           test -n "$SCHEME" || { echo "ERROR: scheme not found"; exit 1; }
           echo "scheme: $SCHEME"
+          # Архив — детерминированный путь к .app, не зависящий от структуры DerivedData
           xcodebuild \
             -workspace "$WS" \
             -scheme "$SCHEME" \
             -configuration Release \
-            -sdk iphoneos \
-            -derivedDataPath build \
+            -destination 'generic/platform=iOS' \
+            -archivePath "$RUNNER_TEMP/Kogitator.xcarchive" \
             CODE_SIGNING_ALLOWED=NO \
             -quiet \
-            build
+            archive
 
       - name: Package unsigned .ipa
         run: |
           set -eo pipefail
-          # .app ищем и в local build/, и в дефолтном DerivedData Xcode
-          # (xcodebuild может не применить -derivedDataPath и положить продукты туда)
-          APP=$(find build "$HOME/Library/Developer/Xcode/DerivedData" \
-            -type d -name '*.app' -path '*Release-iphoneos*' 2>/dev/null | head -1)
+          # Внутри xcarchive приложение лежит по стандартному пути:
+          # .../Products/Applications/<Имя>.app
+          APP="$RUNNER_TEMP/Kogitator.xcarchive/Products/Applications/Kogitator.app"
           echo "app: $APP"
-          if [ -z "$APP" ] || [ ! -d "$APP" ]; then
-            echo "ERROR: .app not found. Что есть в дереве продуктов:"
-            find build "$HOME/Library/Developer/Xcode/DerivedData" -maxdepth 6 -print 2>/dev/null | head -30
+          if [ ! -d "$APP" ]; then
+            echo "ERROR: .app not found in archive. Содержимое Applications:"
+            ls -la "$RUNNER_TEMP/Kogitator.xcarchive/Products/Applications" 2>/dev/null || true
+            find "$RUNNER_TEMP/Kogitator.xcarchive" -maxdepth 6 -name '*.app' -print 2>/dev/null | head -10
             exit 1
           fi
           mkdir -p ipa/Payload
