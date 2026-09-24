@@ -12,28 +12,25 @@ import { useApp } from '../../state';
 import { C, cardStyle } from '../../theme';
 
 const MAX_SHOWN = 300;
+const DEFAULT_CHANNELS = 8;
+
+function rebuildSelections(count: number, prev: ChannelSelection[]): ChannelSelection[] {
+  const trimmed = prev.slice(0, count);
+  while (trimmed.length < count) {
+    trimmed.push({ number: trimmed.length + 1, option: ANY_OPTION, inverted: false });
+  }
+  return trimmed;
+}
 
 export default function FinderScreen() {
   const { revive, clearRevive, recordSearch } = useApp();
-  const [channelCount, setChannelCount] = useState(8);
-  const [selections, setSelections] = useState<ChannelSelection[]>([]);
+  const [channelCount, setChannelCount] = useState(DEFAULT_CHANNELS);
+  const [selections, setSelections] = useState<ChannelSelection[]>(() => rebuildSelections(DEFAULT_CHANNELS, []));
   const [results, setResults] = useState<Fixture[]>([]);
   const [searched, setSearched] = useState(false);
   const [loading, setLoading] = useState(false);
   const [pickerChannel, setPickerChannel] = useState<number | null>(null);
   const revivedRef = useRef(false);
-
-  const rebuild = useCallback((count: number, prev: ChannelSelection[]): ChannelSelection[] => {
-    const trimmed = prev.slice(0, count);
-    while (trimmed.length < count) {
-      trimmed.push({ number: trimmed.length + 1, option: ANY_OPTION, inverted: false });
-    }
-    return trimmed;
-  }, []);
-
-  useEffect(() => {
-    setSelections((prev) => rebuild(channelCount, prev));
-  }, [channelCount, rebuild]);
 
   const runSearch = useCallback(
     async (count: number, sel: ChannelSelection[]) => {
@@ -54,18 +51,21 @@ export default function FinderScreen() {
     revivedRef.current = true;
     const count = Math.min(Math.max(revive.channelCount, 1), MAX_CHANNELS);
     setChannelCount(count);
-    const base = rebuild(count, []);
+    const base = rebuildSelections(count, []);
     const sorted = [...revive.selections].sort((a, b) => a.number - b.number);
     const valid = sorted.length === count && sorted.every((s) => s.number >= 1 && s.number <= count);
     const sel = valid ? sorted : base;
     setSelections(sel);
     void runSearch(count, sel);
     clearRevive();
-  }, [revive, rebuild, runSearch, clearRevive]);
+  }, [revive, runSearch, clearRevive]);
 
   const changeChannelCount = (delta: number) => {
     const next = Math.min(Math.max(channelCount + delta, 1), MAX_CHANNELS);
-    if (next !== channelCount) setChannelCount(next);
+    if (next !== channelCount) {
+      setChannelCount(next);
+      setSelections(rebuildSelections(next, selections));
+    }
   };
 
   const toggleNot = (number: number) => {
