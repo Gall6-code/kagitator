@@ -64,16 +64,14 @@ jobs:
       - name: Package unsigned .ipa
         run: |
           set -eo pipefail
-          WS=$(find ios -maxdepth 1 -type d -name '*.xcworkspace' | head -1)
-          SCHEME=$(xcodebuild -workspace "$WS" -list 2>/dev/null \
-            | awk '/Schemes:/{getline; gsub(/^[[:space:]]+/,"",$0); print; exit}')
-          # Точный путь к собранному .app берём из build settings Xcode
-          APP=$(xcodebuild -workspace "$WS" -scheme "$SCHEME" -configuration Release -sdk iphoneos -showBuildSettings 2>/dev/null \
-            | awk -F' = ' '/^[[:space:]]*TARGET_BUILD_DIR =/{d=$2} /^[[:space:]]*WRAPPER_NAME =/{w=$2} END{print d "/" w}')
+          # .app ищем и в local build/, и в дефолтном DerivedData Xcode
+          # (xcodebuild может не применить -derivedDataPath и положить продукты туда)
+          APP=$(find build "$HOME/Library/Developer/Xcode/DerivedData" \
+            -type d -name '*.app' -path '*Release-iphoneos*' 2>/dev/null | head -1)
           echo "app: $APP"
-          if [ ! -d "$APP" ]; then
-            echo "ERROR: .app directory missing, поиск по дереву build:"
-            find build -maxdepth 6 -name '*.app' -print
+          if [ -z "$APP" ] || [ ! -d "$APP" ]; then
+            echo "ERROR: .app not found. Что есть в дереве продуктов:"
+            find build "$HOME/Library/Developer/Xcode/DerivedData" -maxdepth 6 -print 2>/dev/null | head -30
             exit 1
           fi
           mkdir -p ipa/Payload
