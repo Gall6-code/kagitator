@@ -1,7 +1,7 @@
 // Экран поиска приборов («Когитатор») — вкладка ПОИСК
 
 import React, { useCallback, useEffect, useRef, useState } from 'react';
-import { ActivityIndicator, FlatList, Pressable, Text, TextInput, View } from 'react-native';
+import { ActivityIndicator, Alert, FlatList, Pressable, Text, TextInput, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { router } from 'expo-router';
 import { loadFixturesMeta, searchFixtures } from '../../library';
@@ -70,34 +70,61 @@ export default function FinderScreen() {
     return Number.isNaN(parsed) ? 1 : Math.min(Math.max(parsed, 1), MAX_CHANNELS);
   };
 
+  // Применение нового числа каналов с предложением сбросить атрибуты на ANY
+  const applyCountWithReset = (next: number, onDone: (sel: ChannelSelection[]) => void) => {
+    if (next === channelCount) {
+      onDone(selections);
+      return;
+    }
+    setChannelCount(next);
+    setChannelDraft(String(next));
+    const needsAsk = selections.some((s) => s.option.ma2 !== 'ANY');
+    const apply = (reset: boolean) => {
+      const sel = reset ? rebuildSelections(next, []) : rebuildSelections(next, selections);
+      setSelections(sel);
+      onDone(sel);
+    };
+    if (!needsAsk) {
+      // все каналы уже ANY — сбрасывать нечего, просто расширяем список
+      apply(false);
+      return;
+    }
+    Alert.alert(
+      'Сбросить каналы на ANY?',
+      `Число каналов изменено: ${channelCount} → ${next}. Сбросить атрибуты всех каналов на ANY?`,
+      [
+        { text: 'Оставить настройки', style: 'cancel', onPress: () => apply(false) },
+        { text: 'Сбросить на ANY', style: 'destructive', onPress: () => apply(true) },
+      ],
+      { cancelable: true, onDismiss: () => apply(false) },
+    );
+  };
+
   // Применение введённого вручную числа каналов
   const commitChannelCount = () => {
     const next = resolveCount();
-    setChannelDraft(String(next));
-    if (next !== channelCount) {
-      setChannelCount(next);
-      setSelections(rebuildSelections(next, selections));
+    if (next === channelCount) {
+      setChannelDraft(String(next));
+      return;
     }
+    applyCountWithReset(next, () => {});
   };
 
   const handleSearch = () => {
     const count = resolveCount();
-    setChannelDraft(String(count));
-    const sel = count === channelCount ? selections : rebuildSelections(count, selections);
-    if (count !== channelCount) {
-      setChannelCount(count);
-      setSelections(sel);
+    if (count === channelCount) {
+      setChannelDraft(String(count));
+      void runSearch(count, selections);
+      return;
     }
-    void runSearch(count, sel);
+    setChannelDraft(String(count));
+    applyCountWithReset(count, (sel) => void runSearch(count, sel));
   };
 
   const changeChannelCount = (delta: number) => {
     const next = Math.min(Math.max(channelCount + delta, 1), MAX_CHANNELS);
-    if (next !== channelCount) {
-      setChannelCount(next);
-      setChannelDraft(String(next));
-      setSelections(rebuildSelections(next, selections));
-    }
+    if (next === channelCount) return;
+    applyCountWithReset(next, () => {});
   };
 
   const toggleNot = (number: number) => {
